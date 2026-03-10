@@ -13,8 +13,8 @@ const services = [
   {
     title: "Lighting Design",
     body: "One of the original Ketra dealers in the country and a Lutron Excellence Award winner. We deliver lighting that follows circadian rhythms, enhances architecture, and transforms spaces — from Ketra tunable lighting and Lutron whole-home control to architectural fixtures and landscape illumination.",
-    image: "/photos/processed/work-3.jpg",
-    imageAlt: "Private lounge with curated accent lighting",
+    image: "/photos/processed/svc-lighting.jpg",
+    imageAlt: "Cascading pendant chandelier with lake view — curated lighting design",
     brands: "Lutron · Ketra · DMF",
     link: "/services/lighting",
     linkText: "EXPLORE LIGHTING DESIGN",
@@ -22,43 +22,43 @@ const services = [
   {
     title: "Home Automation & Control",
     body: "The first Josh.ai dealer in the Midwest. Whole-home control through intuitive interfaces that simplify daily life — natural voice automation, one-touch scenes, intelligent scheduling, geofencing, and remote access. Technology that anticipates how you live.",
-    image: "/photos/processed/flush-display.jpg",
-    imageAlt: "Flush-mounted display integrated into living room design",
+    image: "/photos/processed/svc-automation.jpg",
+    imageAlt: "Home office with color-tunable LED shelf lighting and intelligent scene control",
     brands: "Josh.ai · Lutron",
   },
   {
     title: "Audio & Video",
     body: "From distributed audio that fills every room to dedicated theaters with immersive sound, we create media experiences that disappear into the architecture. Hidden speakers, outdoor systems, video walls, and 4K/8K distribution designed for how you live.",
-    image: "/photos/processed/studio-theater.jpg",
-    imageAlt: "Private theater with cinematic projection and mood lighting",
+    image: "/photos/processed/svc-av.jpg",
+    imageAlt: "Vaulted bar lounge with integrated display and in-ceiling speakers",
     brands: "Sonos · Leon · James Loudspeaker · Just Video Walls",
   },
   {
     title: "Motorized Shading",
     body: "Lutron Palladiom and premium shade systems that integrate seamlessly with lighting scenes for automatic daylight harvesting. Architectural hardware, whisper-quiet motors, and custom fabrics — technology that enhances comfort without compromising design.",
-    image: "/photos/processed/bathroom-shades.jpg",
-    imageAlt: "Luxury master bathroom with motorized skylight and window shades",
+    image: "/photos/processed/svc-shading.jpg",
+    imageAlt: "Master bedroom with expansive windows — motorized shade integration",
     brands: "Lutron",
   },
   {
     title: "Networking & Infrastructure",
     body: "Enterprise-grade networking designed for the modern connected home. Structured wiring, fiber optic backbone, and comprehensive Wi-Fi coverage ensure reliable performance for every device, every room — the invisible foundation that makes everything else work.",
-    image: "/photos/processed/work-1.jpg",
-    imageAlt: "Smart kitchen with integrated technology and automated lighting",
+    image: "/photos/processed/svc-networking.jpg",
+    imageAlt: "NorthStar design studio workspace with integrated technology infrastructure",
     brands: null,
   },
   {
     title: "Outdoor Entertainment",
     body: "Extend your living space with weatherproof displays, landscape audio, automated lighting, and motorized screens — all engineered for Minnesota's four seasons. Pool areas, patios, porches, and outdoor kitchens designed for year-round enjoyment.",
-    image: "/photos/processed/outdoor-fireplace.jpg",
-    imageAlt: "Four-season porch with outdoor display above stone fireplace",
+    image: "/photos/processed/svc-outdoor.jpg",
+    imageAlt: "Lakefront pool patio with outdoor speakers and integrated audio",
     brands: "Future Automation",
   },
   {
     title: "Security & Surveillance",
     body: "Integrated security systems, high-definition surveillance, smart access control, and video intercoms — all managed through a single interface. Privacy-first design ensures your home is protected without compromising your peace of mind.",
-    image: "/photos/processed/work-2.jpg",
-    imageAlt: "Smart home security and monitoring integration",
+    image: "/photos/processed/svc-security.jpg",
+    imageAlt: "Luxury home entry with smart access control and surveillance integration",
     brands: "DoorBird · IC Realtime",
   },
 ];
@@ -69,8 +69,8 @@ export default function ServicesPage() {
       {/* ========== HERO — Full-bleed with photo ========== */}
       <section className="relative h-[60vh] lg:h-[70vh] min-h-[450px] overflow-hidden flex items-end">
         <Image
-          src="/photos/processed/hero-dusk.jpg"
-          alt="Luxury home at twilight — every system working in harmony"
+          src="/photos/processed/svc-hero.jpg"
+          alt="Grand staircase in luxury home — technology integrated seamlessly"
           fill
           priority
           className="object-cover"
