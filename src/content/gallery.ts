@@ -19,8 +19,8 @@ export const TAG_MAP: Record<string, string> = {
 
 export const ALL_TAGS = Object.keys(TAG_MAP);
 
-// Curated gallery from 38 carefully selected photos
-// Restored service-focused categories, duplicates removed
+// Curated gallery from 41 carefully selected photos  
+// Restored service-focused categories, duplicates removed, polished jobsite photos added
 export const galleryImages: GalleryImage[] = [
   // STUDIO (9 photos - unique zones only)
   {
@@ -30,13 +30,7 @@ export const galleryImages: GalleryImage[] = [
     "tags": ["studio"],
     "aspect": "landscape"
   },
-  {
-    "id": "work-studio-06", 
-    "src": "/photos/processed/work-studio-06.jpg",
-    "alt": "NorthStar design studio wide view from kitchen to dining transition zone",
-    "tags": ["studio"],
-    "aspect": "landscape"
-  },
+
   {
     "id": "work-studio-07",
     "src": "/photos/processed/work-studio-07.jpg", 
@@ -58,13 +52,7 @@ export const galleryImages: GalleryImage[] = [
     "tags": ["studio"],
     "aspect": "landscape"
   },
-  {
-    "id": "work-studio-35",
-    "src": "/photos/processed/work-studio-35.jpg",
-    "alt": "NorthStar design studio RGB mood room with color-changing lighting",
-    "tags": ["studio"],
-    "aspect": "landscape"
-  },
+
   {
     "id": "work-studio-45",
     "src": "/photos/processed/work-studio-45.jpg",
@@ -72,20 +60,8 @@ export const galleryImages: GalleryImage[] = [
     "tags": ["studio"],
     "aspect": "landscape"
   },
-  {
-    "id": "work-studio-55",
-    "src": "/photos/processed/work-studio-55.jpg", 
-    "alt": "NorthStar design studio conference room with farmhouse table and brick wall",
-    "tags": ["studio"],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-studio-65",
-    "src": "/photos/processed/work-studio-65.jpg",
-    "alt": "NorthStar design studio kitchen and communal dining hub",
-    "tags": ["studio"],
-    "aspect": "landscape"
-  },
+
+
   
   // HOME THEATER (6 photos)
   {
@@ -284,13 +260,7 @@ export const galleryImages: GalleryImage[] = [
     "tags": ["automation", "lighting"],
     "aspect": "portrait"
   },
-  {
-    "id": "work-kitchen-galley", 
-    "src": "/photos/processed/work-kitchen-galley.jpg",
-    "alt": "Galley kitchen with smart lighting and connected appliance integration",
-    "tags": ["lighting"],
-    "aspect": "landscape"
-  },
+
   {
     "id": "work-general-40",
     "src": "/photos/processed/work-general-40.jpg",
@@ -303,6 +273,62 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-outdoor-01.jpg",
     "alt": "Outdoor living space with automated lighting, audio, and motorized systems",
     "tags": ["automation", "lighting", "audio"],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-inwood-theater-hero",
+    "src": "/photos/processed/work-inwood-theater-hero.jpg",
+    "alt": "Luxury home theater with Kaleidescape movie server, acoustic panels, and bar seating",
+    "tags": ["home-theater", "audio", "automation"],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-inwood-theater-seating",
+    "src": "/photos/processed/work-inwood-theater-seating.jpg",
+    "alt": "Diamond-quilted leather theater recliners with ceiling-mounted projector and acoustic treatments",
+    "tags": ["home-theater", "audio"],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-inwood-josh-control",
+    "src": "/photos/processed/work-inwood-josh-control.jpg",
+    "alt": "Josh.ai smart home remote controlling theater and Kaleidescape playback",
+    "tags": ["automation", "home-theater"],
+    "aspect": "portrait"
+  },
+  {
+    "id": "work-inwood-equipment-rack",
+    "src": "/photos/processed/work-inwood-equipment-rack.jpg",
+    "alt": "Professional AV rack with Kaleidescape server, IC Realtime, Lutron panels, and Revel amplification",
+    "tags": ["networking", "automation"],
+    "aspect": "portrait"
+  },
+  {
+    "id": "work-kitchen-coastal",
+    "src": "/photos/processed/work-kitchen-coastal-traditional.jpg",
+    "alt": "Transitional white kitchen with gold pendants, marble island, and arabesque tile backsplash",
+    "tags": ["lighting"],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-lakefront-media-room",
+    "src": "/photos/processed/work-lakefront-media-room.jpg",
+    "alt": "Cozy media room with stone fireplace, large display, and integrated audio system",
+    "tags": ["audio", "lighting", "automation"],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-lakefront-outdoor",
+    "src": "/photos/processed/work-lakefront-outdoor-entertainment.jpg",
+    "alt": "Multi-level deck with outdoor TV, distributed audio, and landscape lighting",
+    "tags": ["audio", "exteriors", "lighting"],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-lakefront-twilight",
+    "src": "/photos/processed/work-lakefront-twilight-exterior.jpg",
+    "alt": "Aerial twilight view of lakefront estate with landscape accent lighting",
+    "tags": ["exteriors", "lighting"],
     "aspect": "landscape"
   }
 ];

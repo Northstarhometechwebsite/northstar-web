@@ -52,3 +52,10 @@ full-v2.png
 *.MOV
 *.mov
 *.mp4
+*.MOV
+*.mov
+*.HEIC
+*.heic
+public/photos/drive-raw/
+public/photos/drive-new/
+process-new-photos.js
