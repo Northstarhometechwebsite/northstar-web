@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { NAV_LINKS } from "@/lib/constants";
+import { NAV_LINKS, COMPANY } from "@/lib/constants";
 import { trackCTAClick } from "@/lib/analytics";
 
 export default function Navigation() {
@@ -69,6 +69,15 @@ export default function Navigation() {
                 {link.label}
               </Link>
             ))}
+            <a
+              href={COMPANY.portalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => trackCTAClick("nav_northstar_connect")}
+              className="font-body font-semibold text-[11px] tracking-[0.12em] uppercase px-6 py-2.5 bg-warm-gold text-deep-navy hover:bg-cream transition-all duration-300"
+            >
+              NORTHSTAR CONNECT
+            </a>
           </div>
 
           {/* Mobile Hamburger */}
@@ -127,6 +136,18 @@ export default function Navigation() {
           </Link>
         ))}
         <div className="mt-8 gold-rule" />
+        <a
+          href={COMPANY.portalUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => {
+            setMobileOpen(false);
+            trackCTAClick("mobile_nav_northstar_connect");
+          }}
+          className="font-body font-semibold text-[12px] tracking-[0.12em] uppercase px-8 py-3 bg-warm-gold text-deep-navy hover:bg-cream transition-all duration-300"
+        >
+          NORTHSTAR CONNECT
+        </a>
         <Link
           href="/contact"
           onClick={() => {
