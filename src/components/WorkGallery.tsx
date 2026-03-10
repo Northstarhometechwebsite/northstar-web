@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import Image from "next/image";
 import { galleryImages, TAG_MAP, ALL_TAGS } from "@/content/gallery";
 import SectionReveal from "./SectionReveal";
 import Link from "next/link";
@@ -79,19 +80,20 @@ export default function WorkGallery() {
                   className="mb-4 lg:mb-5 break-inside-avoid cursor-pointer group relative overflow-hidden"
                   onClick={() => setLightboxIndex(i)}
                 >
-                  {/* Placeholder — will be replaced with Next.js Image when real photos arrive */}
-                  <div
-                    className={`bg-gradient-to-br from-deep-navy to-slate-blue flex items-center justify-center group-hover:scale-[1.02] transition-transform duration-700 ${
+                  <div className={`relative overflow-hidden group-hover:scale-[1.02] transition-transform duration-700 ${
                       image.aspect === "portrait"
                         ? "aspect-[3/4]"
                         : image.aspect === "square"
                         ? "aspect-square"
                         : "aspect-video"
-                    }`}
-                  >
-                    <span className="text-cream font-body uppercase tracking-[0.15em] text-sm opacity-60">
-                      {image.alt}
-                    </span>
+                    }`}>
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
                   </div>
                   {/* Hover overlay with tags */}
                   <div className="absolute inset-0 bg-deep-navy/0 group-hover:bg-deep-navy/40 transition-colors duration-500 flex items-end p-4">
@@ -172,10 +174,14 @@ export default function WorkGallery() {
             className="max-w-[85vw] max-h-[80vh] flex flex-col items-center"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="bg-gradient-to-br from-deep-navy to-slate-blue w-[80vw] max-w-[1000px] aspect-video flex items-center justify-center">
-              <span className="text-cream font-body uppercase tracking-[0.15em] text-sm opacity-60">
-                {filteredImages[lightboxIndex].alt}
-              </span>
+            <div className="relative w-[80vw] max-w-[1000px] aspect-video">
+              <Image
+                src={filteredImages[lightboxIndex].src}
+                alt={filteredImages[lightboxIndex].alt}
+                fill
+                className="object-contain"
+                sizes="80vw"
+              />
             </div>
             <div className="flex gap-2 mt-4">
               {filteredImages[lightboxIndex].tags.map((tag) => (
