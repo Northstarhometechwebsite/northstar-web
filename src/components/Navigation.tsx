@@ -74,7 +74,7 @@ export default function Navigation() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => trackCTAClick("nav_northstar_connect")}
-              className="font-body font-semibold text-[11px] tracking-[0.12em] uppercase px-6 py-2.5 bg-warm-gold text-deep-navy hover:bg-cream transition-all duration-300"
+              className="font-body font-semibold text-[11px] tracking-[0.12em] uppercase px-6 py-2.5 bg-slate-blue text-cream hover:bg-deep-navy transition-all duration-300"
             >
               NORTHSTAR CONNECT
             </a>
@@ -144,7 +144,7 @@ export default function Navigation() {
             setMobileOpen(false);
             trackCTAClick("mobile_nav_northstar_connect");
           }}
-          className="font-body font-semibold text-[12px] tracking-[0.12em] uppercase px-8 py-3 bg-warm-gold text-deep-navy hover:bg-cream transition-all duration-300"
+          className="font-body font-semibold text-[12px] tracking-[0.12em] uppercase px-8 py-3 bg-slate-blue text-cream hover:bg-deep-navy transition-all duration-300"
         >
           NORTHSTAR CONNECT
         </a>
