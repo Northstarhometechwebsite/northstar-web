@@ -5,6 +5,7 @@
   --color-deep-navy: #202839;
   --color-slate-blue: #4C5E6E;
   --color-warm-taupe: #9C9989;
+  --color-warm-gold: #C9A96E;
   --color-background: var(--color-cream);
   --color-foreground: var(--color-deep-navy);
   --font-forum: 'Forum', 'Georgia', 'Times New Roman', serif;
@@ -16,12 +17,13 @@
   --deep-navy: #202839;
   --slate-blue: #4C5E6E;
   --warm-taupe: #9C9989;
+  --warm-gold: #C9A96E;
   --bg-primary: var(--cream);
   --bg-dark: var(--deep-navy);
   --text-primary: var(--deep-navy);
   --text-light: var(--cream);
   --text-muted: var(--slate-blue);
-  --accent: var(--slate-blue);
+  --accent: var(--warm-gold);
   --border-subtle: rgba(156, 153, 137, 0.3);
 }
 
@@ -93,8 +95,55 @@ body {
   animation: scrollDown 2s ease-in-out infinite;
 }
 
+/* Gold rule — thin decorative line */
+.gold-rule {
+  width: 48px;
+  height: 1px;
+  background: var(--warm-gold);
+}
+
+/* Image zoom on hover */
+.img-zoom {
+  overflow: hidden;
+}
+.img-zoom img {
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.img-zoom:hover img {
+  transform: scale(1.05);
+}
+
+/* Project card overlay */
+.project-card .project-info {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.project-card:hover .project-info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Horizontal scroll snap for services */
+.scroll-snap-x {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-snap-x > * {
+  scroll-snap-align: start;
+}
+
+/* Hide scrollbar for services carousel */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Selection color */
 ::selection {
-  background: var(--slate-blue);
+  background: var(--warm-gold);
   color: var(--cream);
 }

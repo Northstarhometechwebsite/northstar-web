@@ -31,10 +31,25 @@ export const NAV_LINKS = [
   { label: "WORK", href: "/work" },
   { label: "SERVICES", href: "/services" },
   { label: "STUDIO", href: "/studio" },
-  { label: "ABOUT", href: "/about" },
-  { label: "CONNECT", href: "/connect" },
   { label: "CONTACT", href: "/contact" },
 ] as const;
+
+export const FOOTER_LINKS = [
+  { label: "Work", href: "/work" },
+  { label: "Services", href: "/services" },
+  { label: "Studio", href: "/studio" },
+  { label: "About", href: "/about" },
+  { label: "Connect", href: "/connect" },
+  { label: "Contact", href: "/contact" },
+] as const;
+
+export const COLORS = {
+  cream: "#F2EFE6",
+  deepNavy: "#202839",
+  slateBlue: "#4C5E6E",
+  warmTaupe: "#9C9989",
+  warmGold: "#C9A96E",
+} as const;
 
 export const SERVICES = [
   {

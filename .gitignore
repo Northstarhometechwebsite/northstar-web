@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+homepage-hero-v2.png
+homepage-full-v2.png
+hero-v2.png
+full-v2.png
