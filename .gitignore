@@ -49,3 +49,6 @@ full-v2.png
 /public/photos/*.JPG
 /public/photos/*.HEIC
 !/public/photos/processed/
+*.MOV
+*.mov
+*.mp4

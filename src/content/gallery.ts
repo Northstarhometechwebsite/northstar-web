@@ -16,13 +16,16 @@ export const TAG_MAP: Record<string, string> = {
   "tech": "AV EQUIPMENT",
   "commercial": "COMMERCIAL",
   "kitchen": "KITCHENS",
+  "dining": "DINING ROOMS",
+  "bathroom": "BATHROOMS",
+  "stairway": "STAIRCASES & HALLWAYS",
   "general": "PORTFOLIO"
 };
 
 export const ALL_TAGS = Object.keys(TAG_MAP);
 
 // Generated gallery data from 243 processed photos
-// Categories: commercial: 3, exterior: 2, general: 113, kitchen: 2, lighting: 4, living: 5, outdoor: 3, studio: 88, tech: 4, theater: 4
+// Updated categories: bathroom: 8, commercial: 5, dining: 4, exterior: 17, kitchen: 6, lighting: 12, living: 34, outdoor: 8, stairway: 12, studio: 88, tech: 14, theater: 20, general: 0
 export const galleryImages: GalleryImage[] = [
   {
     "id": "work-studio-01",
@@ -909,8 +912,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-theater-01.jpg",
     "alt": "Luxury home theater with acoustic treatment and ambient lighting",
     "tags": [
-      "theater",
-      "audio"
+      "theater"
     ],
     "aspect": "landscape"
   },
@@ -919,8 +921,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-theater-02.jpg",
     "alt": "Luxury home theater with media room with bar area",
     "tags": [
-      "theater",
-      "audio"
+      "theater"
     ],
     "aspect": "landscape"
   },
@@ -929,8 +930,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-theater-03.jpg",
     "alt": "Luxury home theater with cinema setup with automated controls",
     "tags": [
-      "theater",
-      "audio"
+      "theater"
     ],
     "aspect": "landscape"
   },
@@ -939,8 +939,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-theater-lounge.jpg",
     "alt": "Luxury home theater with premium seating and projection system",
     "tags": [
-      "theater",
-      "audio"
+      "theater"
     ],
     "aspect": "landscape"
   },
@@ -949,8 +948,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-lighting-01.jpg",
     "alt": "Smart lighting installation with Ketra lighting system",
     "tags": [
-      "lighting",
-      "automation"
+      "lighting"
     ],
     "aspect": "landscape"
   },
@@ -959,8 +957,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-lighting-02.jpg",
     "alt": "Smart lighting installation with smart scene programming",
     "tags": [
-      "lighting",
-      "automation"
+      "lighting"
     ],
     "aspect": "landscape"
   },
@@ -969,8 +966,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-lighting-03.jpg",
     "alt": "Smart lighting installation with automated lighting control",
     "tags": [
-      "lighting",
-      "automation"
+      "lighting"
     ],
     "aspect": "landscape"
   },
@@ -979,8 +975,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-lighting-04.jpg",
     "alt": "Smart lighting installation with tunable white technology",
     "tags": [
-      "lighting",
-      "automation"
+      "lighting"
     ],
     "aspect": "landscape"
   },
@@ -1039,8 +1034,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-exterior-01.jpg",
     "alt": "Residential exterior featuring landscape lighting systems",
     "tags": [
-      "exterior",
-      "automation"
+      "exterior"
     ],
     "aspect": "landscape"
   },
@@ -1049,8 +1043,7 @@ export const galleryImages: GalleryImage[] = [
     "src": "/photos/processed/work-exterior-02.jpg",
     "alt": "Residential exterior featuring automated outdoor controls",
     "tags": [
-      "exterior",
-      "automation"
+      "exterior"
     ],
     "aspect": "landscape"
   },
@@ -1060,8 +1053,7 @@ export const galleryImages: GalleryImage[] = [
     "alt": "Outdoor living area with smart lighting, audio, and automated systems",
     "tags": [
       "outdoor",
-      "lighting",
-      "audio"
+      "lighting"
     ],
     "aspect": "landscape"
   },
@@ -1071,8 +1063,7 @@ export const galleryImages: GalleryImage[] = [
     "alt": "Outdoor living area with smart lighting, audio, and automated systems",
     "tags": [
       "outdoor",
-      "lighting",
-      "audio"
+      "lighting"
     ],
     "aspect": "landscape"
   },
@@ -1082,8 +1073,7 @@ export const galleryImages: GalleryImage[] = [
     "alt": "Outdoor living area with smart lighting, audio, and automated systems",
     "tags": [
       "outdoor",
-      "lighting",
-      "audio"
+      "lighting"
     ],
     "aspect": "landscape"
   },
@@ -1173,1017 +1163,1017 @@ export const galleryImages: GalleryImage[] = [
   {
     "id": "work-general-01",
     "src": "/photos/processed/work-general-01.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Ketra tunable lighting demonstration showcasing color temperature range from cool daylight to warm amber",
     "tags": [
-      "general"
+      "lighting"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-02",
     "src": "/photos/processed/work-general-02.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Dramatic multi-story staircase with open-riser treads and stone walls",
     "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-03",
     "src": "/photos/processed/work-general-03.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Open-riser floating staircase with black steel framework and stone walls",
     "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-04",
     "src": "/photos/processed/work-general-04.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Hallway with floor-to-ceiling walnut wood paneling and modern wall sconces",
     "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-05",
     "src": "/photos/processed/work-general-05.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Luxurious powder room with marble vanity and Lutron keypad control",
     "tags": [
-      "general"
+      "bathroom"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-06",
     "src": "/photos/processed/work-general-06.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Contemporary living space with double-height stone wall and modern seating",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-07",
     "src": "/photos/processed/work-general-07.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Grand foyer with modern open staircase and natural stone walls",
     "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-08",
     "src": "/photos/processed/work-general-08.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Luxurious walk-in shower with marble slab walls and matte black fixtures",
     "tags": [
-      "general"
+      "bathroom"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-09",
     "src": "/photos/processed/work-general-09.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Master bedroom with automated motorized shades and lakefront views",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-10",
     "src": "/photos/processed/work-general-10.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Cascading teardrop chandelier in double-height entryway with lake views",
     "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-100",
-    "src": "/photos/processed/work-general-100.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-101",
-    "src": "/photos/processed/work-general-101.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-102",
-    "src": "/photos/processed/work-general-102.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-103",
-    "src": "/photos/processed/work-general-103.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-104",
-    "src": "/photos/processed/work-general-104.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-105",
-    "src": "/photos/processed/work-general-105.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-106",
-    "src": "/photos/processed/work-general-106.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-107",
-    "src": "/photos/processed/work-general-107.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-108",
-    "src": "/photos/processed/work-general-108.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-109",
-    "src": "/photos/processed/work-general-109.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
+      "lighting"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-11",
     "src": "/photos/processed/work-general-11.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Multi-level open staircase with concrete treads and integrated step lighting",
     "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-110",
-    "src": "/photos/processed/work-general-110.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-111",
-    "src": "/photos/processed/work-general-111.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-112",
-    "src": "/photos/processed/work-general-112.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-113",
-    "src": "/photos/processed/work-general-113.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
-    ],
-    "aspect": "landscape"
-  },
-  {
-    "id": "work-general-114",
-    "src": "/photos/processed/work-general-114.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
-    "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-12",
     "src": "/photos/processed/work-general-12.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Open staircase with motion blur showing space in use and architectural lighting",
     "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-13",
     "src": "/photos/processed/work-general-13.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Grand double-height living room with marble fireplace and lake views",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-14",
     "src": "/photos/processed/work-general-14.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Contemporary lakefront estate with horizontal rooflines and glass walls",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-15",
     "src": "/photos/processed/work-general-15.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Sunken patio lounge with linear fire pit and LED lighting",
     "tags": [
-      "general"
+      "outdoor"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-16",
     "src": "/photos/processed/work-general-16.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Rear elevation at twilight with landscape uplighting and glass façade",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-17",
     "src": "/photos/processed/work-general-17.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Rear angle at dusk with illuminated heart sculpture and outdoor fire features",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-18",
     "src": "/photos/processed/work-general-18.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Daytime front elevation with horizontal rooflines and cedar garage",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-19",
     "src": "/photos/processed/work-general-19.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Wide front view emphasizing prairie-modern proportions and landscaping",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-20",
     "src": "/photos/processed/work-general-20.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Front approach with cantilevered upper volume and metal ring sculpture",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-21",
     "src": "/photos/processed/work-general-21.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Modern residence from front lawn with contemporary architecture",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-22",
     "src": "/photos/processed/work-general-22.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Covered entry approach with dramatic cantilevered roof overhang",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-23",
     "src": "/photos/processed/work-general-23.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Open-concept great room with double-height ceilings and heart sculpture",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-24",
     "src": "/photos/processed/work-general-24.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Formal dining area with live-edge table and brass chandelier",
     "tags": [
-      "general"
+      "dining"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-25",
     "src": "/photos/processed/work-general-25.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Indoor-outdoor fitness space with bi-fold doors and ping-pong table",
     "tags": [
-      "general"
+      "outdoor"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-26",
     "src": "/photos/processed/work-general-26.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Modern residence with stone and glass façade and heart sculpture",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-27",
     "src": "/photos/processed/work-general-27.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Custom walnut closet island with illuminated luxury watch display",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-28",
     "src": "/photos/processed/work-general-28.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Walk-in closet with integrated LED strip lighting for hanging rods",
     "tags": [
-      "general"
+      "lighting"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-29",
     "src": "/photos/processed/work-general-29.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Floating staircase detail with stone treads and black steel structure",
     "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-30",
     "src": "/photos/processed/work-general-30.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Floating staircase emphasizing geometric steel and stone design",
     "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-31",
     "src": "/photos/processed/work-general-31.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Minimalist ventilation grille integrated into concrete windowsill",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-32",
     "src": "/photos/processed/work-general-32.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Wood-fired pizza oven with glowing interior and steel surround",
     "tags": [
-      "general"
+      "commercial"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-33",
     "src": "/photos/processed/work-general-33.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Ornate textured-metal entry door with limestone wall detail",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-34",
     "src": "/photos/processed/work-general-34.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Sculptural metal door panel with swirling surface pattern",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-35",
     "src": "/photos/processed/work-general-35.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Decorative front door with sidelight and stone façade",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-36",
     "src": "/photos/processed/work-general-36.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Bright white galley kitchen with professional range and pendant lights",
     "tags": [
-      "general"
+      "kitchen"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-37",
     "src": "/photos/processed/work-general-37.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Open-concept dining with coffered ceiling and banquette seating",
     "tags": [
-      "general"
+      "dining"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-38",
     "src": "/photos/processed/work-general-38.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Light-filled sitting room with cream sofa and black-framed windows",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-39",
     "src": "/photos/processed/work-general-39.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Bedroom seating nook with upholstered chairs and corner windows",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-40",
     "src": "/photos/processed/work-general-40.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Luxurious master bathroom with floating walnut vanity and marble tile",
     "tags": [
-      "general"
+      "bathroom"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-41",
     "src": "/photos/processed/work-general-41.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Modern living room with linear fireplace and greenery views",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-42",
     "src": "/photos/processed/work-general-42.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "White stucco home with steep gabled entry and dark metal roof",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-43",
     "src": "/photos/processed/work-general-43.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Vaulted great room with exposed oak beams and stone fireplace",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-44",
     "src": "/photos/processed/work-general-44.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Open-concept kitchen with marble waterfall island and vaulted ceiling",
     "tags": [
-      "general"
+      "kitchen"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-45",
     "src": "/photos/processed/work-general-45.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Cathedral-ceiling living space with wall-of-glass windows",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-46",
     "src": "/photos/processed/work-general-46.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Galley-style wet bar with dark cabinetry and vaulted ceiling",
     "tags": [
-      "general"
+      "kitchen"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-47",
     "src": "/photos/processed/work-general-47.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Master bedroom with vaulted ceiling and sculptural wood chandelier",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-48",
     "src": "/photos/processed/work-general-48.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Lower-level family room with dark shiplap accent wall",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-49",
     "src": "/photos/processed/work-general-49.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Guest bedroom with clean white walls and black-framed windows",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-50",
     "src": "/photos/processed/work-general-50.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Rear patio with rectangular swimming pool and covered pavilion",
     "tags": [
-      "general"
+      "outdoor"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-51",
     "src": "/photos/processed/work-general-51.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Grand wood-paneled foyer with ornate plaster ceiling",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-52",
     "src": "/photos/processed/work-general-52.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Upper-level hallway with carved oak balustrade and pendant lights",
     "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-53",
     "src": "/photos/processed/work-general-53.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Luxurious dining room with green velvet chairs and beamed ceiling",
     "tags": [
-      "general"
+      "dining"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-54",
     "src": "/photos/processed/work-general-54.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Vibrant home office with orange-backlit shelving and blue cabinetry",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-55",
     "src": "/photos/processed/work-general-55.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "AV equipment rack with Vantage panels and QMotion controllers",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-56",
     "src": "/photos/processed/work-general-56.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Wood-paneled media room with three flat-screen TVs and leather recliners",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-57",
     "src": "/photos/processed/work-general-57.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Walk-in closet with white built-ins and wood-front island",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-58",
     "src": "/photos/processed/work-general-58.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Purple-walled home cinema with projection screen and reclining seats",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-60",
     "src": "/photos/processed/work-general-60.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Cedar-lined sauna with stone heater and panoramic lakeside views",
     "tags": [
-      "general"
+      "bathroom"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-61",
     "src": "/photos/processed/work-general-61.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Contemporary open-tread staircase with stone walls and large abstract painting",
     "tags": [
-      "general"
+      "stairway"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-62",
     "src": "/photos/processed/work-general-62.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Open-concept great room with vaulted shiplap ceiling and sectional sofa",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-63",
     "src": "/photos/processed/work-general-63.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Home theater with projection screen displaying NorthStar logo",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-64",
     "src": "/photos/processed/work-general-64.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Kitchen split-screen demonstrating tunable lighting from cool to warm",
     "tags": [
-      "general"
+      "lighting"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-65",
     "src": "/photos/processed/work-general-65.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Blue-themed home cinema with projection screen and recliner seating",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-66",
     "src": "/photos/processed/work-general-66.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Wide angle of blue home cinema showing recliners and bar stools",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-67",
     "src": "/photos/processed/work-general-67.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Theater rear bar with leather stools and popcorn machine",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-68",
     "src": "/photos/processed/work-general-68.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Tiered stadium seating with diamond-quilted leather recliners",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-69",
     "src": "/photos/processed/work-general-69.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Side-angle view of theater recliners with projector and snack bar",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-70",
     "src": "/photos/processed/work-general-70.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Front-facing symmetrical view of six quilted theater recliners",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-71",
     "src": "/photos/processed/work-general-71.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Close-up of diamond-quilted leather seats with cup holders",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-72",
     "src": "/photos/processed/work-general-72.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Theater leather recliner with acoustic wood-slat wall panels",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-73",
     "src": "/photos/processed/work-general-73.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Home theater with leather recliners facing large projection screen",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-74",
     "src": "/photos/processed/work-general-74.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Theater room with patterned carpet and acoustic wall treatments",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-75",
     "src": "/photos/processed/work-general-75.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Detail of acoustic wall panels with wood slats and fabric",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-76",
     "src": "/photos/processed/work-general-76.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Josh.ai smart home remote with theater screen in background",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-77",
     "src": "/photos/processed/work-general-77.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Full AV equipment rack with Kaleidescape servers and Lutron panels",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-78",
     "src": "/photos/processed/work-general-78.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Lutron keypad mounted in stone wall for lighting control",
     "tags": [
-      "general"
+      "lighting"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-79",
     "src": "/photos/processed/work-general-79.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Open-concept living room with exposed beams and coastal décor",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-80",
     "src": "/photos/processed/work-general-80.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Luxurious master bathroom with freestanding tub and LED-lit mirrors",
     "tags": [
-      "general"
+      "bathroom"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-81",
     "src": "/photos/processed/work-general-81.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Commercial lounge space demonstrating tunable white lighting",
     "tags": [
-      "general"
+      "commercial"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-82",
     "src": "/photos/processed/work-general-82.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Freestanding tub beneath skylights with natural light",
     "tags": [
-      "general"
+      "bathroom"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-83",
     "src": "/photos/processed/work-general-83.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Built-in LED-lit shelving niche under construction",
     "tags": [
-      "general"
+      "lighting"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-84",
     "src": "/photos/processed/work-general-84.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Media room with flush-mounted TV on teal accent wall",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-85",
     "src": "/photos/processed/work-general-85.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Color-coded cabling routed through AV equipment rack",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-86",
     "src": "/photos/processed/work-general-86.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Rear view of fully wired AV rack with power distribution",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-87",
     "src": "/photos/processed/work-general-87.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Compact tabletop AV rack with Crestron processor and cooling",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-88",
     "src": "/photos/processed/work-general-88.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "High-rise condo with wall-mounted speaker and city skyline views",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-89",
     "src": "/photos/processed/work-general-89.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Large framed TV displaying screensaver in modern apartment",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-90",
     "src": "/photos/processed/work-general-90.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Construction crew reviewing framing work for outdoor structure",
     "tags": [
-      "general"
+      "outdoor"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-91",
     "src": "/photos/processed/work-general-91.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Full-height rolling equipment rack with networking and control gear",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-92",
     "src": "/photos/processed/work-general-92.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Motorized shade cassette with recessed roller mechanism",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-93",
     "src": "/photos/processed/work-general-93.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Technician installing window treatment in luxury bathroom",
     "tags": [
-      "general"
+      "bathroom"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-94",
     "src": "/photos/processed/work-general-94.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Flat-screen TV mounted on stone fireplace in screened porch",
     "tags": [
-      "general"
+      "outdoor"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-95",
     "src": "/photos/processed/work-general-95.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Twilight view of shingle-style estate home with three-car garage",
     "tags": [
-      "general"
+      "exterior"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-96",
     "src": "/photos/processed/work-general-96.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Spacious walk-in closet with white built-ins and walnut island",
     "tags": [
-      "general"
+      "living"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-97",
     "src": "/photos/processed/work-general-97.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Full-height AV rack with QMotion controllers and Vantage panels",
     "tags": [
-      "general"
+      "tech"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-98",
     "src": "/photos/processed/work-general-98.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Dedicated home cinema with tiered recliners and popcorn machine",
     "tags": [
-      "general"
+      "theater"
     ],
     "aspect": "landscape"
   },
   {
     "id": "work-general-99",
     "src": "/photos/processed/work-general-99.jpg",
-    "alt": "Luxury residential technology integration by NorthStar Home Technologies",
+    "alt": "Modern open-tread staircase with steel railings and artwork",
     "tags": [
-      "general"
+      "stairway"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-100",
+    "src": "/photos/processed/work-general-100.jpg",
+    "alt": "Dark powder room with sculptural marble vessel sink",
+    "tags": [
+      "bathroom"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-101",
+    "src": "/photos/processed/work-general-101.jpg",
+    "alt": "Cascading teardrop crystal chandelier in two-story entry hall",
+    "tags": [
+      "lighting"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-102",
+    "src": "/photos/processed/work-general-102.jpg",
+    "alt": "Modern open-tread staircase with iron railings and contemporary painting",
+    "tags": [
+      "stairway"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-103",
+    "src": "/photos/processed/work-general-103.jpg",
+    "alt": "Luxurious dining room with green velvet chairs and chandelier",
+    "tags": [
+      "dining"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-104",
+    "src": "/photos/processed/work-general-104.jpg",
+    "alt": "Vibrant home office with orange-lit shelves and blue wallpaper",
+    "tags": [
+      "living"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-105",
+    "src": "/photos/processed/work-general-105.jpg",
+    "alt": "White stucco home façade with dramatic pointed arch entry",
+    "tags": [
+      "exterior"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-106",
+    "src": "/photos/processed/work-general-106.jpg",
+    "alt": "Vaulted living space with exposed beams and built-in wet bar",
+    "tags": [
+      "living"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-107",
+    "src": "/photos/processed/work-general-107.jpg",
+    "alt": "Basement living room with dark shiplap media wall and sectional",
+    "tags": [
+      "living"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-108",
+    "src": "/photos/processed/work-general-108.jpg",
+    "alt": "Bright white galley kitchen with professional range and pendant lights",
+    "tags": [
+      "kitchen"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-109",
+    "src": "/photos/processed/work-general-109.jpg",
+    "alt": "Bedroom sitting nook with wingback chairs and landscape windows",
+    "tags": [
+      "living"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-110",
+    "src": "/photos/processed/work-general-110.jpg",
+    "alt": "Lounge area with multicolored RGB lighting and sculptural coffee table",
+    "tags": [
+      "lighting"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-111",
+    "src": "/photos/processed/work-general-111.jpg",
+    "alt": "Creative workspace with RGB color-wash lighting and industrial shelving",
+    "tags": [
+      "living"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-112",
+    "src": "/photos/processed/work-general-112.jpg",
+    "alt": "Luxury home cinema with blue LED accent lighting and tiered seating",
+    "tags": [
+      "theater"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-113",
+    "src": "/photos/processed/work-general-113.jpg",
+    "alt": "Open-concept living space with stone fireplace and purple accent lighting",
+    "tags": [
+      "living"
+    ],
+    "aspect": "landscape"
+  },
+  {
+    "id": "work-general-114",
+    "src": "/photos/processed/work-general-114.jpg",
+    "alt": "Elegant open-plan living room with beamed ceiling and sunset views",
+    "tags": [
+      "living"
     ],
     "aspect": "landscape"
   }
