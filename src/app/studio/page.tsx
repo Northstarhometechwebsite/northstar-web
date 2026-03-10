@@ -189,17 +189,17 @@ export default function StudioPage() {
             </p>
           </SectionReveal>
           <SectionReveal delay={0.1}>
-            <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 lg:gap-x-14 lg:gap-y-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 lg:gap-10 items-center justify-items-center">
               {BRANDS.map((brand) => (
                 <div
                   key={brand.name}
-                  className="opacity-50 hover:opacity-100 transition-opacity duration-300"
+                  className="opacity-40 hover:opacity-80 transition-opacity duration-300 flex items-center justify-center"
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={`/logos/${brand.file}`}
                     alt={brand.name}
-                    className="h-6 lg:h-7 w-auto"
+                    className="h-5 lg:h-6 w-auto max-w-[160px]"
                   />
                 </div>
               ))}
