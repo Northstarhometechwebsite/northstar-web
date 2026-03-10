@@ -5,16 +5,30 @@ import { SERVICES } from "@/lib/constants";
 
 const PROJECTS = [
   {
-    src: "/photos/processed/work-1.jpg",
-    title: "Minnetonka Modern",
-    category: "Lighting & Automation",
+    src: "/photos/processed/luxury-kitchen.jpg",
+    title: "Lake Minnetonka Estate",
+    category: "Whole-Home Integration",
     aspect: "aspect-[16/10]",
     span: "lg:col-span-2",
   },
   {
-    src: "/photos/processed/work-2.jpg",
-    title: "Lake Home",
-    category: "Shading & AV",
+    src: "/photos/processed/bathroom-shades.jpg",
+    title: "Master Suite",
+    category: "Motorized Shading",
+    aspect: "aspect-square",
+    span: "",
+  },
+  {
+    src: "/photos/processed/flush-display.jpg",
+    title: "Living Gallery",
+    category: "Media & Display",
+    aspect: "aspect-[3/4]",
+    span: "",
+  },
+  {
+    src: "/photos/processed/outdoor-fireplace.jpg",
+    title: "Four-Season Porch",
+    category: "Outdoor Entertainment",
     aspect: "aspect-[3/4]",
     span: "",
   },
@@ -22,14 +36,7 @@ const PROJECTS = [
     src: "/photos/processed/work-3.jpg",
     title: "Private Lounge",
     category: "Lighting Design",
-    aspect: "aspect-[4/3]",
-    span: "",
-  },
-  {
-    src: "/photos/processed/work-4.jpg",
-    title: "Lakeside Estate",
-    category: "Outdoor Living",
-    aspect: "aspect-[21/9]",
+    aspect: "aspect-[16/10]",
     span: "lg:col-span-2",
   },
 ];
@@ -40,8 +47,8 @@ export default function HomePage() {
       {/* ========== HERO — Full-bleed cinematic ========== */}
       <section className="relative h-screen flex items-end overflow-hidden">
         <Image
-          src="/photos/processed/hero.jpg"
-          alt="Luxury home exterior at twilight"
+          src="/photos/processed/hero-dusk.jpg"
+          alt="Luxury home exterior at twilight — warm glow from every window"
           fill
           priority
           className="object-cover"
