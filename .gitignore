@@ -43,3 +43,9 @@ homepage-hero-v2.png
 homepage-full-v2.png
 hero-v2.png
 full-v2.png
+
+# Original unprocessed photos (too large for git)
+/public/photos/*.jpg
+/public/photos/*.JPG
+/public/photos/*.HEIC
+!/public/photos/processed/

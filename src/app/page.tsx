@@ -5,30 +5,30 @@ import { SERVICES } from "@/lib/constants";
 
 const PROJECTS = [
   {
-    src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
-    title: "Lake Minnetonka Residence",
-    category: "Lighting · Automation",
+    src: "/photos/processed/work-1.jpg",
+    title: "Minnetonka Modern",
+    category: "Lighting & Automation",
     aspect: "aspect-[16/10]",
     span: "lg:col-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=1200&q=80",
-    title: "Private Cinema",
-    category: "Home Theater",
+    src: "/photos/processed/work-2.jpg",
+    title: "Lake Home",
+    category: "Shading & AV",
     aspect: "aspect-[3/4]",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80",
-    title: "Wayzata Modern",
+    src: "/photos/processed/work-3.jpg",
+    title: "Private Lounge",
     category: "Lighting Design",
     aspect: "aspect-[4/3]",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
-    title: "Summit Avenue Estate",
-    category: "Whole-Home Integration",
+    src: "/photos/processed/work-4.jpg",
+    title: "Lakeside Estate",
+    category: "Outdoor Living",
     aspect: "aspect-[21/9]",
     span: "lg:col-span-2",
   },
@@ -40,7 +40,7 @@ export default function HomePage() {
       {/* ========== HERO — Full-bleed cinematic ========== */}
       <section className="relative h-screen flex items-end overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80"
+          src="/photos/processed/hero.jpg"
           alt="Luxury home exterior at twilight"
           fill
           priority
@@ -193,7 +193,7 @@ export default function HomePage() {
       {/* ========== STUDIO TEASER — Visual ========== */}
       <section className="relative h-[80vh] lg:h-[90vh] overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=80"
+          src="/photos/processed/studio.jpg"
           alt="NorthStar Design Studio"
           fill
           className="object-cover"
