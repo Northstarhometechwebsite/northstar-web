@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-cream: #F2EFE6;
+  --color-deep-navy: #202839;
+  --color-slate-blue: #4C5E6E;
+  --color-warm-taupe: #9C9989;
+  --color-background: var(--color-cream);
+  --color-foreground: var(--color-deep-navy);
+  --font-forum: 'Forum', 'Georgia', 'Times New Roman', serif;
+  --font-body: 'Nunito Sans', 'Avenir', 'Helvetica Neue', Arial, sans-serif;
+}
+
+:root {
+  --cream: #F2EFE6;
+  --deep-navy: #202839;
+  --slate-blue: #4C5E6E;
+  --warm-taupe: #9C9989;
+  --bg-primary: var(--cream);
+  --bg-dark: var(--deep-navy);
+  --text-primary: var(--deep-navy);
+  --text-light: var(--cream);
+  --text-muted: var(--slate-blue);
+  --accent: var(--slate-blue);
+  --border-subtle: rgba(156, 153, 137, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--deep-navy);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reveal animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Stagger children */
+.stagger > .reveal:nth-child(1) { transition-delay: 0s; }
+.stagger > .reveal:nth-child(2) { transition-delay: 0.15s; }
+.stagger > .reveal:nth-child(3) { transition-delay: 0.3s; }
+.stagger > .reveal:nth-child(4) { transition-delay: 0.45s; }
+.stagger > .reveal:nth-child(5) { transition-delay: 0.6s; }
+.stagger > .reveal:nth-child(6) { transition-delay: 0.75s; }
+
+/* Scroll indicator animation */
+@keyframes scrollDown {
+  0% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(12px); opacity: 0.5; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.scroll-indicator {
+  animation: scrollDown 2s ease-in-out infinite;
+}
+
+/* Selection color */
+::selection {
+  background: var(--slate-blue);
+  color: var(--cream);
+}
