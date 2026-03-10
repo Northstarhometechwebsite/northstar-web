@@ -44,7 +44,7 @@ const services = [
     title: "Networking & Infrastructure",
     body: "Enterprise-grade networking designed for the modern connected home. Structured wiring, fiber optic backbone, and comprehensive Wi-Fi coverage ensure reliable performance for every device, every room — the invisible foundation that makes everything else work.",
     image: "/photos/processed/svc-networking.jpg",
-    imageAlt: "NorthStar design studio workspace with integrated technology infrastructure",
+    imageAlt: "Professional home automation equipment rack with structured wiring and control systems",
     brands: null,
   },
   {
@@ -58,7 +58,7 @@ const services = [
     title: "Security & Surveillance",
     body: "Integrated security systems, high-definition surveillance, smart access control, and video intercoms — all managed through a single interface. Privacy-first design ensures your home is protected without compromising your peace of mind.",
     image: "/photos/processed/svc-security.jpg",
-    imageAlt: "Luxury home entry with smart access control and surveillance integration",
+    imageAlt: "Luxury home exterior with architectural entry — security and surveillance integration",
     brands: "DoorBird · IC Realtime",
   },
 ];
