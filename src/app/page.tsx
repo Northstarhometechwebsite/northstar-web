@@ -15,21 +15,21 @@ const PROJECTS = [
     src: "/photos/processed/bathroom-shades.jpg",
     title: "Master Suite",
     category: "Motorized Shading",
-    aspect: "aspect-square",
+    aspect: "aspect-[16/10]",
     span: "",
   },
   {
     src: "/photos/processed/flush-display.jpg",
     title: "Living Gallery",
     category: "Media & Display",
-    aspect: "aspect-[3/4]",
+    aspect: "aspect-[16/10]",
     span: "",
   },
   {
     src: "/photos/processed/outdoor-fireplace.jpg",
     title: "Four-Season Porch",
     category: "Outdoor Entertainment",
-    aspect: "aspect-[3/4]",
+    aspect: "aspect-[16/10]",
     span: "",
   },
   {
@@ -37,7 +37,7 @@ const PROJECTS = [
     title: "Private Lounge",
     category: "Lighting Design",
     aspect: "aspect-[16/10]",
-    span: "lg:col-span-2",
+    span: "",
   },
 ];
 
@@ -100,32 +100,62 @@ export default function HomePage() {
           </SectionReveal>
         </div>
 
-        {/* Full-bleed image grid — no container padding */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-1">
-          {PROJECTS.map((project, i) => (
-            <SectionReveal key={i} delay={i * 0.1} className={project.span}>
-              <Link href="/work" className="block relative project-card img-zoom group">
-                <div className={`relative ${project.aspect} w-full`}>
-                  <Image
-                    src={project.src}
-                    alt={project.title}
-                    fill
-                    className="object-cover"
-                    sizes={project.span ? "66vw" : "33vw"}
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-500" />
-                  <div className="project-info absolute bottom-0 left-0 right-0 p-6 lg:p-8">
-                    <p className="font-body text-[10px] tracking-[0.2em] uppercase text-warm-gold mb-1">
-                      {project.category}
-                    </p>
-                    <h3 className="font-forum text-cream text-[22px] lg:text-[26px] tracking-[0.03em] uppercase">
-                      {project.title}
-                    </h3>
+        {/* Full-bleed image grid — row 1: wide + narrow, row 2: 4 equal */}
+        <div className="flex flex-col gap-1">
+          {/* Row 1: Hero project (2/3) + secondary (1/3) */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-1">
+            {PROJECTS.slice(0, 2).map((project, i) => (
+              <SectionReveal key={i} delay={i * 0.1} className={i === 0 ? "lg:col-span-2" : ""}>
+                <Link href="/work" className="block relative project-card img-zoom group">
+                  <div className={`relative ${project.aspect} w-full`}>
+                    <Image
+                      src={project.src}
+                      alt={project.title}
+                      fill
+                      className="object-cover"
+                      sizes={i === 0 ? "66vw" : "33vw"}
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-500" />
+                    <div className="project-info absolute bottom-0 left-0 right-0 p-6 lg:p-8">
+                      <p className="font-body text-[10px] tracking-[0.2em] uppercase text-warm-gold mb-1">
+                        {project.category}
+                      </p>
+                      <h3 className="font-forum text-cream text-[22px] lg:text-[26px] tracking-[0.03em] uppercase">
+                        {project.title}
+                      </h3>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            </SectionReveal>
-          ))}
+                </Link>
+              </SectionReveal>
+            ))}
+          </div>
+          {/* Row 2: 3 equal columns */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-1">
+            {PROJECTS.slice(2).map((project, i) => (
+              <SectionReveal key={i + 2} delay={(i + 2) * 0.1}>
+                <Link href="/work" className="block relative project-card img-zoom group">
+                  <div className={`relative ${project.aspect} w-full`}>
+                    <Image
+                      src={project.src}
+                      alt={project.title}
+                      fill
+                      className="object-cover"
+                      sizes="33vw"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-500" />
+                    <div className="project-info absolute bottom-0 left-0 right-0 p-6 lg:p-8">
+                      <p className="font-body text-[10px] tracking-[0.2em] uppercase text-warm-gold mb-1">
+                        {project.category}
+                      </p>
+                      <h3 className="font-forum text-cream text-[22px] lg:text-[26px] tracking-[0.03em] uppercase">
+                        {project.title}
+                      </h3>
+                    </div>
+                  </div>
+                </Link>
+              </SectionReveal>
+            ))}
+          </div>
         </div>
 
         <div className="py-12 lg:py-16 text-center">
