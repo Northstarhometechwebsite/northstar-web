@@ -172,8 +172,8 @@ export default function HomePage() {
           {/* Mobile: horizontal scroll / Desktop: grid */}
           <div className="flex lg:grid lg:grid-cols-3 gap-px overflow-x-auto no-scrollbar scroll-snap-x px-6 lg:px-0">
             {SERVICES.map((service, i) => (
-              <SectionReveal key={service.id} delay={i * 0.08}>
-                <div className="min-w-[280px] lg:min-w-0 bg-cream/50 p-8 lg:p-10 group hover:bg-deep-navy transition-colors duration-500 cursor-default">
+              <SectionReveal key={service.id} delay={i * 0.08} className="h-full">
+                <div className="min-w-[280px] lg:min-w-0 h-full bg-cream/50 p-8 lg:p-10 group hover:bg-deep-navy transition-colors duration-500 cursor-default">
                   <span className="font-body text-[10px] tracking-[0.2em] uppercase text-warm-gold">
                     0{i + 1}
                   </span>
