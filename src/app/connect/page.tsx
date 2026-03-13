@@ -69,8 +69,8 @@ export default function ConnectPage() {
                 body: "Submit and track service tickets directly from the portal — no phone calls required.",
               },
             ].map((item, i) => (
-              <SectionReveal key={item.title} delay={i * 0.1}>
-                <div className="bg-white p-8">
+              <SectionReveal key={item.title} delay={i * 0.1} className="h-full">
+                <div className="bg-white p-8 h-full flex flex-col">
                   <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-3">
                     {item.title}
                   </h3>
