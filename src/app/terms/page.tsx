@@ -168,6 +168,7 @@ export default function TermsPage() {
                     <li>6-month in-house hardware warranty covering hardware replacement and labor</li>
                     <li>Lifetime workmanship warranty on installation quality and programming</li>
                     <li>Access to the NorthStar App for system information (WiFi/surveillance logins), payment management, and client updates</li>
+                    <li>Additional work billed at $140/hour</li>
                   </ul>
                 </div>
 
@@ -188,7 +189,7 @@ export default function TermsPage() {
                   <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
                     <li>Free daytime and Saturday remote support</li>
                     <li>Daytime and Saturday on-site support: $140/hour (1-hour minimum)</li>
-                    <li>After-hours and Sunday on-site support: $200/hour (1-hour minimum)</li>
+                    <li>After-hours and Sunday on-site support: $210/hour (1-hour minimum)</li>
                   </ul>
 
                   <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Hardware &amp; Warranty</h4>
@@ -235,7 +236,7 @@ export default function TermsPage() {
                   <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
                     <li>Free 24/7 remote support including weekends</li>
                     <li>Free daytime on-site support (8AM–6PM, Monday–Friday)</li>
-                    <li>Sunday on-site support: $200/hour (1-hour minimum, no truck roll fee)</li>
+                    <li>After-hours on-site support: $210/hour (1-hour minimum, no truck roll fee)</li>
                   </ul>
 
                   <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Hardware &amp; Warranty</h4>

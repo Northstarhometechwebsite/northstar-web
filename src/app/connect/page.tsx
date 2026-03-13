@@ -42,7 +42,7 @@ export default function ConnectPage() {
             </p>
           </SectionReveal>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
             {[
               {
                 title: "Project Management",
@@ -55,6 +55,18 @@ export default function ConnectPage() {
               {
                 title: "Document Sharing",
                 body: "Plans, manuals, and project documents available anytime, anywhere.",
+              },
+              {
+                title: "24/7 AI Chat Assistant",
+                body: "Instant answers about your system, troubleshooting guidance, and support requests — anytime, day or night.",
+              },
+              {
+                title: "System Database",
+                body: "A complete record of every product, component, and configuration installed in your home.",
+              },
+              {
+                title: "Service Requests",
+                body: "Submit and track service tickets directly from the portal — no phone calls required.",
               },
             ].map((item, i) => (
               <SectionReveal key={item.title} delay={i * 0.1}>
@@ -192,8 +204,7 @@ export default function ConnectPage() {
             <div className="lg:col-span-2">
               <SectionReveal>
                 <p className="font-body text-[12px] font-semibold uppercase tracking-[0.2em] text-warm-taupe mb-4">
-                  {/* TODO: Ask Chris — COMING SOON or NOW AVAILABLE */}
-                  COMING SOON
+                  
                 </p>
                 <h2 className="font-forum text-cream text-[36px] lg:text-[52px] tracking-[0.03em] uppercase leading-[1.1] mb-4">
                   Your Home, At Your Command
