@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, useEffect, useRef, FormEvent } from "react";
 import { trackFormSubmit } from "@/lib/analytics";
 
 const PROJECT_TYPES = [
@@ -12,9 +12,38 @@ const PROJECT_TYPES = [
   "Other",
 ];
 
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || "";
+
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState("");
+  const turnstileRef = useRef<HTMLDivElement>(null);
+
+  // Load Turnstile widget
+  useEffect(() => {
+    if (!TURNSTILE_SITE_KEY) return;
+
+    const script = document.createElement("script");
+    script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onTurnstileLoad";
+    script.async = true;
+
+    // Define callback before loading script
+    (window as unknown as Record<string, unknown>).onTurnstileLoad = () => {
+      if (turnstileRef.current && (window as unknown as Record<string, { render: (el: HTMLElement, opts: Record<string, unknown>) => void }>).turnstile) {
+        (window as unknown as Record<string, { render: (el: HTMLElement, opts: Record<string, unknown>) => void }>).turnstile.render(turnstileRef.current, {
+          sitekey: TURNSTILE_SITE_KEY,
+          theme: "light",
+          callback: (token: string) => setTurnstileToken(token),
+        });
+      }
+    };
+
+    document.head.appendChild(script);
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -37,16 +66,28 @@ export default function ContactForm() {
           phone: data.get("phone"),
           projectType,
           description: data.get("description"),
+          // Honeypot — bots will fill this, humans won't see it
+          company: data.get("company"),
+          // Turnstile token
+          turnstileToken,
         }),
       });
 
       if (!res.ok) {
+        const result = await res.json().catch(() => null);
+        if (result?.error === "spam") {
+          // Silently "succeed" for spam — don't let bots know they were caught
+          setSubmitted(true);
+          return;
+        }
         throw new Error("Submission failed");
       }
 
       setSubmitted(true);
     } catch {
-      alert("Something went wrong. Please call us at (612) 254-2626 or email info@northstarhometech.com.");
+      alert(
+        "Something went wrong. Please call us at (612) 254-2626 or email info@northstarhometech.com."
+      );
     } finally {
       setSubmitting(false);
     }
@@ -68,6 +109,18 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+      {/* Honeypot field — hidden from humans, visible to bots */}
+      <div className="absolute -left-[9999px] -top-[9999px]" aria-hidden="true">
+        <label htmlFor="company">Company</label>
+        <input
+          type="text"
+          id="company"
+          name="company"
+          tabIndex={-1}
+          autoComplete="off"
+        />
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div>
           <label
@@ -152,6 +205,11 @@ export default function ContactForm() {
           className="w-full bg-white border border-warm-taupe/30 px-4 py-3 font-body text-[16px] text-deep-navy focus:outline-none focus:border-slate-blue transition-colors resize-none"
         />
       </div>
+
+      {/* Cloudflare Turnstile widget */}
+      {TURNSTILE_SITE_KEY && (
+        <div ref={turnstileRef} className="cf-turnstile" />
+      )}
 
       <button
         type="submit"
