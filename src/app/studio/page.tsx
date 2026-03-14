@@ -43,16 +43,16 @@ const GALLERY = [
 ];
 
 const BRANDS = [
-  { name: "Josh.ai", file: "josh-ai.svg" },
-  { name: "Lutron", file: "lutron.svg" },
-  { name: "Sonos", file: "sonos.svg" },
-  { name: "Leon", file: "leon.svg" },
-  { name: "James Loudspeaker", file: "james.svg" },
-  { name: "DMF", file: "dmf.svg" },
-  { name: "DoorBird", file: "doorbird.svg" },
-  { name: "Future Automation", file: "future-automation.svg" },
-  { name: "IC Realtime", file: "ic-realtime.svg" },
-  { name: "Just Video Walls", file: "just-video-walls.svg" },
+  { name: "Josh.ai", file: "partners/Josh.ai.png" },
+  { name: "Lutron", file: "partners/Lutron.png" },
+  { name: "Sonos", file: "partners/Sonos.png" },
+  { name: "Leon", file: "partners/Leon.png" },
+  { name: "James Loudspeaker", file: "partners/James-Loudspeaker-logo.jpg" },
+  { name: "DMF", file: "partners/DMF.png" },
+  { name: "DoorBird", file: "partners/Doorbird.png" },
+  { name: "Future Automation", file: "partners/futureautomation.png" },
+  { name: "IC Realtime", file: "partners/IC-Realtime.png" },
+  { name: "Just Video Walls", file: "partners/JVW.png" },
 ];
 
 export default function StudioPage() {
