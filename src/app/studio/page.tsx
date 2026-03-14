@@ -199,7 +199,7 @@ export default function StudioPage() {
                   <img
                     src={`/logos/${brand.file}`}
                     alt={brand.name}
-                    className="h-5 lg:h-6 w-auto max-w-[160px]"
+                    className="h-8 lg:h-10 w-auto max-w-[160px]"
                   />
                 </div>
               ))}
