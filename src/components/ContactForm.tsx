@@ -27,12 +27,29 @@ export default function ContactForm() {
     // Track the form submission
     trackFormSubmit("contact", projectType);
 
-    // TODO: Wire to actual form backend (Slack channel + D-Tools opportunity)
-    // For now, simulate a submission
-    await new Promise((r) => setTimeout(r, 1000));
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: data.get("name"),
+          email: data.get("email"),
+          phone: data.get("phone"),
+          projectType,
+          description: data.get("description"),
+        }),
+      });
 
-    setSubmitted(true);
-    setSubmitting(false);
+      if (!res.ok) {
+        throw new Error("Submission failed");
+      }
+
+      setSubmitted(true);
+    } catch {
+      alert("Something went wrong. Please call us at (612) 254-2626 or email info@northstarhometech.com.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   if (submitted) {
