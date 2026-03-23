@@ -33,7 +33,7 @@ const PROJECTS = [
     span: "",
   },
   {
-    src: "/photos/processed/work-3.jpg",
+    src: "/photos/processed/work-lighting-01.jpg",
     title: "Private Lounge",
     category: "Lighting Design",
     aspect: "aspect-[16/10]",
