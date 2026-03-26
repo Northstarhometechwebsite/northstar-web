@@ -14,9 +14,15 @@ export default function LightingPage() {
     <>
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-deep-navy via-[#2a3448] to-slate-blue" />
-        <div className="absolute inset-0 bg-black/20" />
-        {/* TODO: Replace with dramatic lighting scene photo */}
+        <Image
+          src="/photos/processed/lighting-hero.jpg"
+          alt="Luxury loft interior with layered architectural lighting design"
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 text-center px-6">
           <h1 className="font-forum text-cream text-[42px] lg:text-[64px] tracking-[0.03em] uppercase">
             Discover Light&apos;s Potential
