@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import SectionReveal from "@/components/SectionReveal";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 import { TIMELINE } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -76,11 +76,15 @@ export default function AboutPage() {
             </div>
             <div className="lg:col-span-2">
               <SectionReveal direction="right">
-                {/* Chris Hayes professional portrait */}
-                <ImagePlaceholder
-                  label="Chris Hayes, Founder"
-                  aspect="aspect-[3/4]"
-                />
+                <div className="relative aspect-[3/4] overflow-hidden">
+                  <Image
+                    src="/photos/processed/chris-hayes-founder.jpg"
+                    alt="Chris Hayes, Founder of NorthStar Home Technologies"
+                    fill
+                    className="object-cover object-center"
+                    sizes="(max-width: 1024px) 100vw, 40vw"
+                  />
+                </div>
               </SectionReveal>
             </div>
           </div>
