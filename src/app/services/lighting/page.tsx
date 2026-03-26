@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 export const metadata: Metadata = {
   title: "Lighting Design | NorthStar Home Technologies",
@@ -61,11 +61,15 @@ export default function LightingPage() {
               </SectionReveal>
             </div>
             <SectionReveal direction="right">
-              {/* Ketra lighting scene showing color temperature variation */}
-              <ImagePlaceholder
-                label="Ketra Tunable Lighting"
-                aspect="aspect-[4/3]"
-              />
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <Image
+                  src="/photos/processed/lighting-ketra.jpg"
+                  alt="Ketra tunable lighting in a luxury kitchen and dining space with layered light temperatures"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
             </SectionReveal>
           </div>
         </div>
@@ -98,11 +102,15 @@ export default function LightingPage() {
               </SectionReveal>
             </div>
             <SectionReveal direction="left" className="lg:order-1">
-              {/* Lutron keypad and shade control interface */}
-              <ImagePlaceholder
-                label="Lutron HomeWorks Control"
-                aspect="aspect-[4/3]"
-              />
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <Image
+                  src="/photos/processed/lighting-lutron.jpg"
+                  alt="Lutron HomeWorks QSX scene-select keypad with custom-engraved labels on dark wood"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
             </SectionReveal>
           </div>
         </div>
@@ -125,22 +133,26 @@ export default function LightingPage() {
               </SectionReveal>
               <SectionReveal delay={0.15}>
                 <p className="font-body text-[17px] text-slate-blue leading-[1.8]">
-                  NorthStar provides full architectural lighting design
-                  services — strategic placement to highlight architectural
-                  features, create moods, and enhance well-being. Not just
-                  illumination — it&apos;s an experience crafted for your
-                  specific spaces, art, and lifestyle. We work alongside
-                  architects and interior designers to ensure lighting is
-                  considered from the very first plan.
+                  NorthStar&apos;s in-house lighting design team provides full
+                  architectural lighting services — from initial concept through
+                  scaled 2D layouts with photometric calculations. Strategic
+                  placement highlights architectural features, creates layered
+                  moods, and enhances well-being. We work alongside architects
+                  and interior designers from day one, ensuring lighting is an
+                  integral part of the design — not an afterthought.
                 </p>
               </SectionReveal>
             </div>
             <SectionReveal direction="right">
-              {/* Architectural lighting highlighting art and design features */}
-              <ImagePlaceholder
-                label="Architectural Lighting"
-                aspect="aspect-[4/3]"
-              />
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <Image
+                  src="/photos/processed/lighting-architectural.jpg"
+                  alt="Glass wine cellar under staircase with warm LED accent lighting tracing architectural lines"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
             </SectionReveal>
           </div>
         </div>
@@ -151,16 +163,25 @@ export default function LightingPage() {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 max-w-3xl text-center">
           <SectionReveal>
             <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-              Fixture Representation &amp; Sales
+              Fixture Design &amp; Procurement
             </h2>
           </SectionReveal>
           <SectionReveal delay={0.15}>
+            <p className="font-body text-[17px] text-slate-blue leading-[1.8] mb-6">
+              NorthStar&apos;s in-house lighting designer brings decades of
+              expertise in architectural fixture selection and procurement —
+              sourcing from exclusive European manufacturers that serve the
+              luxury residential market exclusively. From statement chandeliers
+              and sculptural pendants to precision architectural downlights, we
+              specify and procure fixtures that elevate every space.
+            </p>
             <p className="font-body text-[17px] text-slate-blue leading-[1.8]">
-              Through trusted partnerships with leading manufacturers, NorthStar
-              provides manufacturer fixture and downlight representation.
-              Whether you need statement chandeliers, precision downlights, or
-              specialty exterior fixtures, we source and specify the right
-              product for every application.
+              Our fixture program covers the full spectrum — high-voltage
+              decorative fixtures, trending low-voltage architectural solutions,
+              and everything in between. We provide complete lighting design
+              packages, fixture specifications, and direct procurement, giving
+              architects and designers a single trusted resource from concept
+              through installation.
             </p>
           </SectionReveal>
         </div>
