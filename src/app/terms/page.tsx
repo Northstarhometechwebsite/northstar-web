@@ -19,6 +19,7 @@ const sections = [
   { id: "tier0", label: "Standard Installation (Tier 0)" },
   { id: "tier1", label: "Managed Client Plan (Tier 1)" },
   { id: "tier2", label: "Preferred Management (Tier 2)" },
+  { id: "monitoring", label: "Security Monitoring" },
   { id: "privacy", label: "Privacy Policy" },
 ];
 
@@ -168,7 +169,7 @@ export default function TermsPage() {
                     <li>6-month in-house hardware warranty covering hardware replacement and labor</li>
                     <li>Lifetime workmanship warranty on installation quality and programming</li>
                     <li>Access to the NorthStar App for system information (WiFi/surveillance logins), payment management, and client updates</li>
-                    <li>Additional work billed at $140/hour</li>
+                    <li>Additional work billed at $165/hour</li>
                   </ul>
                 </div>
 
@@ -188,8 +189,8 @@ export default function TermsPage() {
                   <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Support &amp; Rates</h4>
                   <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
                     <li>Free daytime and Saturday remote support</li>
-                    <li>Daytime and Saturday on-site support: $140/hour (1-hour minimum)</li>
-                    <li>After-hours and Sunday on-site support: $210/hour (1-hour minimum)</li>
+                    <li>Daytime and Saturday on-site support: $165/hour (1-hour minimum)</li>
+                    <li>After-hours, Sunday, and holiday on-site support: $240/hour (1-hour minimum)</li>
                   </ul>
 
                   <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Hardware &amp; Warranty</h4>
@@ -236,7 +237,7 @@ export default function TermsPage() {
                   <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
                     <li>Free 24/7 remote support including weekends</li>
                     <li>Free daytime on-site support (8AM–6PM, Monday–Friday)</li>
-                    <li>After-hours on-site support: $210/hour (1-hour minimum, no truck roll fee)</li>
+                    <li>After-hours, Sunday, and holiday on-site support: $240/hour (1-hour minimum, no truck roll fee)</li>
                   </ul>
 
                   <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Hardware &amp; Warranty</h4>
@@ -270,6 +271,74 @@ export default function TermsPage() {
                     <li>Limitation of liability capped at total fees paid</li>
                     <li>Force majeure provisions apply</li>
                     <li>Dispute resolution: mediation followed by binding arbitration in Minnesota; class action waiver</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Security Monitoring */}
+              <div id="monitoring" className="scroll-mt-28 mb-12">
+                  <h3 className="font-forum text-[22px] tracking-[0.03em] uppercase mb-4">
+                    12. Security Monitoring Service
+                  </h3>
+                  <p className="text-slate-blue mb-4 italic">Month-to-month · No long-term contract required</p>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Service Description</h4>
+                  <p className="text-slate-blue mb-4">
+                    NorthStar Home Technologies offers professional 24/7 security monitoring through USA Central Station. Monitoring covers burglary, fire, and medical emergencies based on the installed system configuration. This service is separate from and independent of NorthStar&apos;s Managed and Preferred Management Plans.
+                  </p>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Pricing</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
+                    <li>$34.99/month plus applicable sales tax</li>
+                    <li>Month-to-month — cancel anytime with no early termination fees</li>
+                    <li>Rate adjustments require 30 days&apos; written notice via the NorthStar App or email</li>
+                  </ul>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Activation &amp; System Requirements</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
+                    <li>NorthStar configures and tests the security system to standard operating condition at the time of installation</li>
+                    <li>Monitoring requires a compatible DSC security panel (PowerSeries Neo or Qolsys) installed and commissioned by NorthStar</li>
+                    <li>The security system must maintain active communication with the central monitoring station at all times</li>
+                  </ul>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Notifications &amp; Response</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
+                    <li>Alarm events generate notifications via text message, automated call, or live operator call depending on event severity</li>
+                    <li>Emergency services are dispatched per the central station&apos;s established protocols and the client&apos;s emergency contact list</li>
+                    <li>NorthStar is not responsible for the response time or actions of emergency service providers</li>
+                  </ul>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Client Responsibilities</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
+                    <li>Maintain the security system in proper working condition, including timely battery replacement when low-battery signals occur</li>
+                    <li>Annual system checkups are recommended (available at an additional fee)</li>
+                    <li>Notify NorthStar promptly of any changes to emergency contact information</li>
+                    <li>Ensure the premises maintain reliable internet and/or cellular connectivity for system communication</li>
+                  </ul>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Account Management</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
+                    <li>Monitoring is managed through the NorthStar Connect app (available on iOS App Store)</li>
+                    <li>Cancellation may be submitted at any time through the app or by contacting NorthStar directly</li>
+                    <li>Payment is due monthly in advance via the NorthStar App</li>
+                  </ul>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Non-Payment &amp; Suspension</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
+                    <li>Accounts past due beyond thirty (30) days may result in suspension of monitoring services</li>
+                    <li>NorthStar may pursue collection of outstanding balances</li>
+                    <li>A late fee of 1.5% per month (18% annually) applies to past-due balances</li>
+                  </ul>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Limitation of Liability</h4>
+                  <p className="text-slate-blue mb-4">
+                    NorthStar and its monitoring partners provide monitoring services on a best-effort basis. NorthStar shall not be liable for losses, damages, or injuries resulting from: failure of communication networks, power outages beyond battery backup duration, false alarms or failure to detect an event, delays in emergency service response, or any event beyond NorthStar&apos;s reasonable control. Total liability is limited to the monitoring fees paid by the client in the twelve (12) months preceding the claim.
+                  </p>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Dispute Resolution</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside">
+                    <li>Disputes shall be resolved through mediation followed by binding arbitration in the State of Minnesota</li>
+                    <li>Class action waiver applies</li>
                   </ul>
                 </div>
               </div>
