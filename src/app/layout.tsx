@@ -23,6 +23,15 @@ export const metadata: Metadata = {
   title: "NorthStar Home Technologies — Luxury Lighting & Smart Home Automation | Minneapolis, MN",
   description:
     "NorthStar designs and integrates bespoke lighting and smart home automation for luxury residences in Minneapolis and the Twin Cities. Award-winning Lutron and Ketra integration.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+  },
   openGraph: {
     title: "NorthStar Home Technologies",
     description:
