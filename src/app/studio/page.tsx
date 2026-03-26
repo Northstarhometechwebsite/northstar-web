@@ -78,7 +78,7 @@ export default function StudioPage() {
                 The Design Studio
               </h1>
               <p className="font-body text-cream/50 text-[14px] lg:text-[16px] mt-4 tracking-wide">
-                2,000 SQ FT &nbsp;·&nbsp; UPTOWN MINNEAPOLIS
+                2,000 SQ FT &nbsp;·&nbsp; MINNEAPOLIS, MN
               </p>
             </SectionReveal>
           </div>
@@ -97,8 +97,8 @@ export default function StudioPage() {
           <SectionReveal delay={0.1}>
             <p className="font-body text-[17px] lg:text-[19px] text-slate-blue leading-[1.9]">
               This is not a showroom — it&apos;s an immersive design environment.
-              Across 2,000 square feet beneath one of the most prominent
-              architecture firms in the Twin Cities, every lighting scene,
+              Across 2,000 square feet within Minneapolis&apos; most concentrated
+              hub of architecture and design, every lighting scene,
               audio zone, and automation interface is live and fully functional.
               You don&apos;t just see what we do. You feel it.
             </p>
@@ -214,14 +214,14 @@ export default function StudioPage() {
           <SectionReveal>
             <div className="gold-rule mx-auto mb-8" />
             <p className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-6">
-              Uptown Minneapolis
+              Minneapolis
             </p>
             <p className="font-body text-[17px] text-slate-blue leading-[1.8] mb-2">
               1624 W Lake St, Minneapolis, MN 55408
             </p>
             <p className="font-body text-[14px] text-warm-taupe leading-[1.7]">
-              Located beneath one of the most prominent architecture firms in
-              the Twin Cities — by appointment only.
+              Located within Minneapolis&apos; most concentrated hub of
+              architecture and design. By appointment only.
             </p>
           </SectionReveal>
         </div>
