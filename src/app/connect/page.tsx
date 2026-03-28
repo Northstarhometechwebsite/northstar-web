@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SectionReveal from "@/components/SectionReveal";
 import { managementPlans } from "@/content/management-plans";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 export const metadata: Metadata = {
   title: "NorthStar Connect | NorthStar Home Technologies",
@@ -250,20 +250,28 @@ export default function ConnectPage() {
             <div className="lg:col-span-3">
               <SectionReveal direction="right">
                 <div className="flex justify-center gap-4 lg:gap-6">
-                  {/* Chris will provide iPhone screenshots of the new AI chat interface */}
+                  {/* App Dashboard Screenshot */}
                   <div className="w-[200px] lg:w-[260px] transform rotate-[-4deg]">
-                    <ImagePlaceholder
-                      label="App Screenshot"
-                      aspect="aspect-[9/19]"
-                      className="rounded-[24px] shadow-2xl"
-                    />
+                    <div className="aspect-[9/19] rounded-[24px] shadow-2xl overflow-hidden">
+                      <Image
+                        src="/photos/app-dashboard.png"
+                        alt="NorthStar Connect App Dashboard"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 200px, 260px"
+                      />
+                    </div>
                   </div>
                   <div className="w-[200px] lg:w-[260px] transform rotate-[4deg] mt-8">
-                    <ImagePlaceholder
-                      label="AI Chat Interface"
-                      aspect="aspect-[9/19]"
-                      className="rounded-[24px] shadow-2xl"
-                    />
+                    <div className="aspect-[9/19] rounded-[24px] shadow-2xl overflow-hidden">
+                      <Image
+                        src="/photos/app-ai-chat.png"
+                        alt="NorthStar Connect AI Chat Interface"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 200px, 260px"
+                      />
+                    </div>
                   </div>
                 </div>
               </SectionReveal>
