@@ -374,9 +374,8 @@ export default function TermsPage() {
                     info@northstarhometech.com
                   </a>.
                 </p>
-              </div>
 
-              <p className="text-warm-taupe text-[14px] pt-8 border-t border-warm-taupe/20">
+                <p className="text-warm-taupe text-[14px] pt-8 border-t border-warm-taupe/20">
                 These terms are governed by the laws of the State of Minnesota. For questions, contact NorthStar Home Technologies, Inc. at{" "}
                 <a href="mailto:info@northstarhometech.com" className="underline">info@northstarhometech.com</a>{" "}
                 or{" "}
