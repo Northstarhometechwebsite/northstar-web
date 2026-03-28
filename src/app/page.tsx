@@ -2,6 +2,15 @@ import Link from "next/link";
 import Image from "next/image";
 import SectionReveal from "@/components/SectionReveal";
 import { SERVICES } from "@/lib/constants";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Luxury Home Automation & Smart Lighting | Minneapolis & Twin Cities | NorthStar",
+  description: "NorthStar designs and integrates bespoke home automation, Lutron lighting, and smart home systems for luxury residences in Minneapolis and the Twin Cities.",
+  alternates: {
+    canonical: '/',
+  },
+};
 
 const PROJECTS = [
   {

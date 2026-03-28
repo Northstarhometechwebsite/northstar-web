@@ -4,9 +4,11 @@ import SectionReveal from "@/components/SectionReveal";
 import WorkGallery from "@/components/WorkGallery";
 
 export const metadata: Metadata = {
-  title: "Our Work | NorthStar Home Technologies",
-  description:
-    "Explore NorthStar's portfolio of luxury smart home installations — lighting design, home theaters, automation, and more across Minneapolis and the Twin Cities.",
+  title: "Luxury Home Automation Projects | Minneapolis Portfolio | NorthStar",
+  description: "Explore NorthStar's portfolio of luxury smart home and lighting projects across Minneapolis and the Twin Cities. Bespoke automation for discerning homeowners.",
+  alternates: {
+    canonical: '/work',
+  },
 };
 
 export default function WorkPage() {

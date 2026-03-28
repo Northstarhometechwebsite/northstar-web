@@ -4,9 +4,11 @@ import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
 
 export const metadata: Metadata = {
-  title: "Services | NorthStar Home Technologies",
-  description:
-    "NorthStar designs and integrates intelligent automation systems — lighting design, home automation, audio & video, motorized shades, networking, and security for luxury homes.",
+  title: "Home Automation & Lighting Services Minneapolis | NorthStar",
+  description: "Custom home automation, Lutron & Ketra lighting, home theaters, motorized shades, and smart home systems. Serving luxury homes across Minneapolis and the Twin Cities.",
+  alternates: {
+    canonical: '/services',
+  },
 };
 
 const services = [

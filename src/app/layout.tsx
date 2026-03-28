@@ -4,6 +4,7 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
+import SchemaMarkup from "@/components/SchemaMarkup";
 
 const forum = Forum({
   weight: "400",
@@ -20,9 +21,13 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.northstarhometech.com'),
   title: "NorthStar Home Technologies — Luxury Lighting & Smart Home Automation | Minneapolis, MN",
   description:
     "NorthStar designs and integrates bespoke lighting and smart home automation for luxury residences in Minneapolis and the Twin Cities. Award-winning Lutron and Ketra integration.",
+  alternates: {
+    canonical: '/',
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
@@ -36,7 +41,7 @@ export const metadata: Metadata = {
     title: "NorthStar Home Technologies",
     description:
       "Luxury home automation and bespoke lighting for discerning homeowners in Minneapolis and the Twin Cities.",
-    url: "https://northstarhometech.com",
+    url: "https://www.northstarhometech.com",
     siteName: "NorthStar Home Technologies",
     locale: "en_US",
     type: "website",
@@ -51,6 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${forum.variable} ${nunitoSans.variable}`}>
       <head>
+        <SchemaMarkup />
         {/* Google Tag Manager */}
         {process.env.NEXT_PUBLIC_GTM_ID && (
           <script

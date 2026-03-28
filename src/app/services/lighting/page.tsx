@@ -4,9 +4,11 @@ import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
 
 export const metadata: Metadata = {
-  title: "Lighting Design | NorthStar Home Technologies",
-  description:
-    "NorthStar is one of the original 60 Ketra dealers nationwide. Award-winning lighting design with Lutron, Ketra tunable lighting, and architectural fixture representation.",
+  title: "Lutron & Ketra Lighting Design | Minneapolis | NorthStar Home Technologies",
+  description: "Expert Lutron and Ketra lighting design and installation for luxury residences. Precision lighting control systems in Minneapolis and the Twin Cities.",
+  alternates: {
+    canonical: '/services/lighting',
+  },
 };
 
 export default function LightingPage() {

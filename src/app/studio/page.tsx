@@ -4,9 +4,11 @@ import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
 
 export const metadata: Metadata = {
-  title: "The Design Studio | NorthStar Home Technologies",
-  description:
-    "Visit NorthStar's 2,000 sq ft Design Studio in Uptown Minneapolis — an immersive sensory experience where the future of intelligent living becomes tangible.",
+  title: "Luxury Home Technology Design Studio | Uptown Minneapolis",
+  description: "Visit NorthStar's 2,000 sq ft design studio in Uptown Minneapolis. Experience Lutron, Ketra, and Josh.ai systems in person. By appointment.",
+  alternates: {
+    canonical: '/studio',
+  },
 };
 
 const GALLERY = [

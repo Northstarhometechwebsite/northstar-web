@@ -4,9 +4,11 @@ import SectionReveal from "@/components/SectionReveal";
 import { TIMELINE } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "About | NorthStar Home Technologies",
-  description:
-    "Founded in 2015 by Chris Hayes, NorthStar Home Technologies redefines luxury home automation with precision engineering, tailored solutions, and lifelong service.",
+  title: "About NorthStar | Premier Home Automation Company | Minneapolis",
+  description: "NorthStar Home Technologies is a luxury home technology integrator based in Minneapolis, specializing in Lutron lighting, home automation, and smart home design.",
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 const values = [

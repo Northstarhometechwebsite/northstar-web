@@ -5,9 +5,11 @@ import SectionReveal from "@/components/SectionReveal";
 import { managementPlans } from "@/content/management-plans";
 
 export const metadata: Metadata = {
-  title: "NorthStar Connect | NorthStar Home Technologies",
-  description:
-    "Your smart home, managed. Explore NorthStar Connect — client portal, management plans, and the AI-powered concierge experience.",
+  title: "NorthStar Connect | Smart Home Client Portal & Management Plans",
+  description: "Your smart home, managed. Access your client portal, explore management plans, and experience NorthStar's AI-powered concierge for your luxury home.",
+  alternates: {
+    canonical: '/connect',
+  },
 };
 
 export default function ConnectPage() {

@@ -4,13 +4,13 @@ export const COMPANY = {
   tagline: "Tailored technology and lighting. Elevated living.",
   phone: "(612) 254-2626",
   email: "info@northstarhometech.com",
-  website: "https://northstarhometech.com",
+  website: "https://www.northstarhometech.com",
   portalUrl: "https://portal.northstarhometech.com/login",
   founded: 2015,
   founder: "Chris Hayes",
   addresses: {
     stillwater: {
-      street: "5640 Memorial Ave N STE B",
+      street: "1610 Greeley St S",
       city: "Stillwater",
       state: "MN",
       zip: "55082",

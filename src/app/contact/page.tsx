@@ -4,9 +4,11 @@ import ContactForm from "@/components/ContactForm";
 import { COMPANY } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Contact | NorthStar Home Technologies",
-  description:
-    "Start a conversation with NorthStar Home Technologies. Schedule a consultation for luxury smart home automation and lighting design in Minneapolis and the Twin Cities.",
+  title: "Contact NorthStar | Home Automation Experts | Minneapolis & Stillwater",
+  description: "Get in touch with NorthStar Home Technologies. Design Studio in Uptown Minneapolis and offices in Stillwater. Schedule a consultation today.",
+  alternates: {
+    canonical: '/contact',
+  },
 };
 
 export default function ContactPage() {
