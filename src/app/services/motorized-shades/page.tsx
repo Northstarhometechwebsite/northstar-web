@@ -290,7 +290,7 @@ export default function MotorizedShadesPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/luxury-kitchen.jpg"
+                  src="/photos/processed/work-living-02.jpg"
                   alt="Modern kitchen with motorized shades providing optimal energy efficiency"
                   fill
                   className="object-cover"

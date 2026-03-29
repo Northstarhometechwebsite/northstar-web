@@ -17,7 +17,7 @@ export default function SystemTakeoverPage() {
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80"
+          src="/photos/processed/enhanced-av-rack-1.jpg"
           alt="Home automation system takeover and rescue services Minneapolis Twin Cities"
           fill
           className="object-cover"
@@ -85,7 +85,7 @@ export default function SystemTakeoverPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?w=1600&q=80"
+                  src="/photos/processed/work-inwood-equipment-rack.jpg"
                   alt="Frustrated homeowner dealing with broken smart home automation system needing takeover"
                   fill
                   className="object-cover"
@@ -225,7 +225,7 @@ export default function SystemTakeoverPage() {
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80"
+                  src="/photos/processed/work-tech-03.jpg"
                   alt="Professional home automation equipment showing system takeover and integration"
                   fill
                   className="object-cover"

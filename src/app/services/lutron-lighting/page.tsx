@@ -17,7 +17,7 @@ export default function LutronLightingPage() {
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1524634126442-357e0eac3c14?w=1600&q=80"
+          src="/photos/processed/lighting-hero.jpg"
           alt="Lutron HomeWorks lighting control system installation Minneapolis Twin Cities"
           fill
           className="object-cover"
@@ -85,7 +85,7 @@ export default function LutronLightingPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80"
+                  src="/photos/processed/lighting-ketra.jpg"
                   alt="Lutron Excellence Award winner HomeWorks QSX lighting control luxury installation"
                   fill
                   className="object-cover"
@@ -225,7 +225,7 @@ export default function LutronLightingPage() {
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=1600&q=80"
+                  src="/photos/processed/lighting-lutron.jpg"
                   alt="Lutron RadioRA 3 wireless lighting control system luxury installation Twin Cities"
                   fill
                   className="object-cover"

@@ -17,7 +17,7 @@ export default function RetrofitAutomationPage() {
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1560184897-ae75f418493e?w=1600&q=80"
+          src="/photos/processed/work-tech-01.jpg"
           alt="Luxury home retrofit smart automation installation in Minneapolis Twin Cities"
           fill
           className="object-cover"
@@ -85,7 +85,7 @@ export default function RetrofitAutomationPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80"
+                  src="/photos/processed/svc-automation.jpg"
                   alt="Home automation retrofit installation showing minimal invasive smart home upgrade"
                   fill
                   className="object-cover"
@@ -225,7 +225,7 @@ export default function RetrofitAutomationPage() {
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&q=80"
+                  src="/photos/processed/work-kitchen-modern.jpg"
                   alt="Luxury Twin Cities home exterior perfect for smart home retrofit automation"
                   fill
                   className="object-cover"

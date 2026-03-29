@@ -17,7 +17,7 @@ export default function JoshAiPage() {
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1583225173216-b25c6b121e04?w=1600&q=80"
+          src="/photos/processed/work-inwood-josh-control.jpg"
           alt="Josh.ai voice control smart home automation Minneapolis Twin Cities luxury installation"
           fill
           className="object-cover"
@@ -85,7 +85,7 @@ export default function JoshAiPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80"
+                  src="/photos/drive-new/project/FourSeason%20Porch%20with%20Josh.ai%20in%20soundbar.jpg"
                   alt="Josh.ai luxury voice control system installation showing privacy-focused smart home"
                   fill
                   className="object-cover"
@@ -233,7 +233,7 @@ export default function JoshAiPage() {
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80"
+                  src="/photos/drive-new/project/Custom%20Soundbar%20with%20Josh.ai.jpg"
                   alt="Josh.ai natural voice conversation control in luxury Twin Cities home"
                   fill
                   className="object-cover"

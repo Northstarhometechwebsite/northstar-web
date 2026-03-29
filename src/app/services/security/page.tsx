@@ -17,7 +17,7 @@ export default function SecurityPage() {
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80"
+          src="/photos/processed/svc-security.jpg"
           alt="Professional home security surveillance camera installation Minneapolis Twin Cities luxury home"
           fill
           className="object-cover"
@@ -85,7 +85,7 @@ export default function SecurityPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80"
+                  src="/photos/processed/work-exterior-01.jpg"
                   alt="Discrete security camera installation luxury home privacy-focused surveillance system"
                   fill
                   className="object-cover"
@@ -225,7 +225,7 @@ export default function SecurityPage() {
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1600&q=80"
+                  src="/photos/processed/work-exterior-02.jpg"
                   alt="IC Realtime professional 4K security camera installation showing advanced surveillance technology"
                   fill
                   className="object-cover"

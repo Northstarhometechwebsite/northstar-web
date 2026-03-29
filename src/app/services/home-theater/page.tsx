@@ -17,7 +17,7 @@ export default function HomeTheaterPage() {
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="/photos/processed/svc-av.jpg"
+          src="/photos/processed/work-inwood-theater-hero.jpg"
           alt="Luxury home theater with immersive surround sound and large format display"
           fill
           className="object-cover"
@@ -80,7 +80,7 @@ export default function HomeTheaterPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/flush-display.jpg"
+                  src="/photos/processed/work-theater-01.jpg"
                   alt="Dedicated home theater with elegant seating and immersive projection"
                   fill
                   className="object-cover"
@@ -119,7 +119,7 @@ export default function HomeTheaterPage() {
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/outdoor-fireplace.jpg"
+                  src="/photos/processed/work-theater-02.jpg"
                   alt="Multi-purpose media room with hidden technology and flexible lighting"
                   fill
                   className="object-cover"
@@ -229,7 +229,7 @@ export default function HomeTheaterPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/svc-av.jpg"
+                  src="/photos/processed/work-lakefront-media-room.jpg"
                   alt="Large format display with premium video technology in luxury setting"
                   fill
                   className="object-cover"

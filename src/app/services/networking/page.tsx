@@ -17,7 +17,7 @@ export default function NetworkingPage() {
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1600&q=80"
+          src="/photos/processed/svc-networking.jpg"
           alt="Enterprise home networking equipment rack Ubiquiti installation Minneapolis Twin Cities"
           fill
           className="object-cover"
@@ -85,7 +85,7 @@ export default function NetworkingPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80"
+                  src="/photos/processed/enhanced-av-rack-2.jpg"
                   alt="Professional home networking equipment rack with structured wiring and enterprise components"
                   fill
                   className="object-cover"
@@ -225,7 +225,7 @@ export default function NetworkingPage() {
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?w=1600&q=80"
+                  src="/photos/processed/work-inwood-equipment-rack.jpg"
                   alt="WiFi coverage heatmap showing complete network coverage throughout luxury home"
                   fill
                   className="object-cover"

@@ -85,7 +85,7 @@ export default function HomeAutomationPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/work-lighting-01.jpg"
+                  src="/photos/processed/work-inwood-josh-control.jpg"
                   alt="Josh.ai voice control interface in sophisticated living space"
                   fill
                   className="object-cover"
@@ -205,7 +205,7 @@ export default function HomeAutomationPage() {
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/svc-automation.jpg"
+                  src="/photos/processed/luxury-kitchen.jpg"
                   alt="Unified home automation app interface on tablet and smartphone"
                   fill
                   className="object-cover"
@@ -370,7 +370,7 @@ export default function HomeAutomationPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/luxury-kitchen.jpg"
+                  src="/photos/processed/work-inwood-josh-control.jpg"
                   alt="Remote home automation control interface on mobile device"
                   fill
                   className="object-cover"
