@@ -50,7 +50,7 @@ export default function EastMetroPage() {
               </SectionReveal>
               <SectionReveal delay={0.1}>
                 <p className="font-body text-[14px] text-warm-taupe font-semibold uppercase tracking-[0.1em] mb-6">
-                  1610 GREELEY ST S — LOCAL PRESENCE
+                  5640 MEMORIAL AVE N STE B — LOCAL PRESENCE
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.15}>
