@@ -4,21 +4,21 @@ import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
 
 export const metadata: Metadata = {
-  title: "Home Automation Minnetonka Wayzata Edina | Josh.ai Voice Control | NorthStar",
-  description: "Intelligent home automation with Josh.ai voice control for luxury homes in Minnetonka, Wayzata, Edina, Orono. Seamlessly integrate lighting, climate, entertainment, and security.",
+  title: "Lutron HomeWorks Installer Twin Cities | Lutron Lighting Expert | NorthStar",
+  description: "Professional Lutron HomeWorks QSX and RadioRA 3 installation in Minneapolis Twin Cities. Expert Lutron lighting control for luxury homes in Minnetonka, Wayzata, Edina.",
   alternates: {
-    canonical: '/services/home-automation',
+    canonical: '/services/lutron-lighting',
   },
 };
 
-export default function HomeAutomationPage() {
+export default function LutronLightingPage() {
   return (
     <>
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="/photos/processed/svc-automation.jpg"
-          alt="Smart home automation interface in luxury Minneapolis residence"
+          src="https://images.unsplash.com/photo-1524634126442-357e0eac3c14?w=1600&q=80"
+          alt="Lutron HomeWorks lighting control system installation Minneapolis Twin Cities"
           fill
           className="object-cover"
           priority
@@ -29,55 +29,55 @@ export default function HomeAutomationPage() {
           <SectionReveal>
             <div className="gold-rule mx-auto mb-6" />
             <h1 className="font-forum text-cream text-[36px] sm:text-[48px] lg:text-[64px] tracking-[0.03em] uppercase leading-[1.05]">
-              Your Home Responds to You
+              Lutron Lighting Excellence
             </h1>
             <p className="font-body text-cream/60 text-[16px] lg:text-[18px] mt-4 max-w-2xl mx-auto leading-[1.7]">
-              Intelligent automation for luxury homes in Minnetonka, Wayzata, Edina, and Twin Cities
+              HomeWorks QSX and RadioRA 3 experts serving luxury Twin Cities homes
             </p>
           </SectionReveal>
         </div>
       </section>
 
-      {/* Josh.ai Voice Control */}
+      {/* Lutron Excellence Award Winner */}
       <section className="bg-cream py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <SectionReveal>
                 <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                  Josh.ai Voice Control
+                  Lutron Excellence Award Winner
                 </h2>
               </SectionReveal>
               <SectionReveal delay={0.1}>
                 <p className="font-body text-[14px] text-warm-taupe font-semibold uppercase tracking-[0.1em] mb-6">
-                  THE LUXURY VOICE PLATFORM
+                  AWARD-WINNING LUTRON DEALER
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.15}>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
-                  As the first Josh.ai dealer in the Midwest, NorthStar brings you the voice control platform designed specifically for luxury custom homes. Unlike consumer devices, Josh.ai prioritizes privacy, reliability, and sophisticated integration.
+                  NorthStar received the prestigious Lutron Excellence Award for Best Ketra System — recognition of our expertise in the most sophisticated lighting control technologies available today. We specialize exclusively in Lutron's professional lines: HomeWorks QSX and RadioRA 3.
                 </p>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
-                  Your voice commands stay within your home's network, ensuring privacy while delivering natural, conversational control over every system — lighting, climate, entertainment, shades, and security.
+                  Unlike installers who work with consumer-grade Caseta or older RA2 systems, we focus on Lutron's flagship platforms designed for luxury custom homes throughout Minneapolis, Minnetonka, Wayzata, and Edina.
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.2}>
                 <ul className="space-y-3">
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Privacy-focused — no cloud dependency
+                    HomeWorks QSX for ultimate flexibility and control
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Natural conversation, not rigid commands
+                    RadioRA 3 for elegant whole-home lighting
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Whole-home audio distribution
+                    NO Caseta, NO RA2, NO GRAFIK Eye systems
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Works even without internet
+                    Professional installation and programming only
                   </li>
                 </ul>
               </SectionReveal>
@@ -85,8 +85,8 @@ export default function HomeAutomationPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/work-lighting-01.jpg"
-                  alt="Josh.ai voice control interface in sophisticated living space"
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80"
+                  alt="Lutron Excellence Award winner HomeWorks QSX lighting control luxury installation"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -97,80 +97,80 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* What Automation Covers */}
+      {/* HomeWorks QSX */}
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-16 lg:mb-20">
             <SectionReveal>
               <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                Complete Home Integration
+                HomeWorks QSX — The Ultimate Platform
               </h2>
             </SectionReveal>
             <SectionReveal delay={0.1}>
               <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
-                True home automation goes beyond individual smart devices. We create unified systems where every element works together — lighting, climate, entertainment, shades, and security responding as one.
+                Lutron's flagship whole-home lighting control system, designed for the most demanding luxury installations. QSX offers unlimited flexibility, rock-solid reliability, and seamless integration with third-party systems.
               </p>
             </SectionReveal>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <SectionReveal delay={0.1}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Lighting Scenes
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Unlimited Expansion
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  "Good morning" raises shades and brings up warm lighting. "Movie time" dims lights and activates entertainment.
+                  Scale from a few zones to hundreds of lights across multiple buildings and properties.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Climate Control
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Advanced Load Types
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Temperature adjusts automatically based on occupancy, time of day, and seasonal preferences.
+                  Control LED, incandescent, fluorescent, low-voltage, and specialty lighting with precision.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.3}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Entertainment
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Third-Party Integration
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Music follows you through the house, and video sources connect seamlessly to any display.
+                  Seamless connection to Josh.ai, AV systems, HVAC, shades, and security platforms.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.4}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Motorized Shades
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Astronomical Timeclock
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Coordinated with lighting for optimal daylight harvesting and privacy throughout the day.
+                  Lighting automatically adjusts based on sunrise, sunset, and seasonal changes.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.5}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Security Systems
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Ketra Integration
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Surveillance, access control, and monitoring integrated into your daily routines.
+                  Native control of Ketra's circadian rhythm and color-changing LED systems.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.6}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Pool & Spa
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Professional Keypads
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Temperature, lighting, and water features controlled through the same interface.
+                  Customizable seeTouch keypads with engraving and LED status indicators.
                 </p>
               </div>
             </SectionReveal>
@@ -178,35 +178,55 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Single App Control */}
+      {/* RadioRA 3 */}
       <section className="bg-cream py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="lg:order-2">
               <SectionReveal>
                 <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                  One App. Everything.
+                  RadioRA 3 — Elegant Simplicity
                 </h2>
               </SectionReveal>
               <SectionReveal delay={0.1}>
                 <p className="font-body text-[14px] text-warm-taupe font-semibold uppercase tracking-[0.1em] mb-6">
-                  UNIFIED CONTROL PLATFORM
+                  WIRELESS PROFESSIONAL LIGHTING
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.15}>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
-                  No more switching between dozens of apps to control your home. Our unified platform puts everything at your fingertips — whether you're at home, at the office, or traveling.
+                  For homes where hardwired lighting control isn't practical, RadioRA 3 delivers professional-grade performance through Lutron's Clear Connect wireless technology. Perfect for retrofit projects in established Minnetonka and Wayzata neighborhoods.
                 </p>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85]">
-                  Custom interfaces designed for your specific home layout and preferences. Control individual devices or activate complex scenes with a single touch. Monitor your home's status from anywhere in the world.
+                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
+                  RadioRA 3 offers the reliability and sophistication of a professional system without the complexity of hardwired infrastructure — ideal for luxury homes that demand elegance without compromise.
                 </p>
+              </SectionReveal>
+              <SectionReveal delay={0.2}>
+                <ul className="space-y-3">
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    100+ devices per system with reliable wireless communication
+                  </li>
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    Professional keypads with custom engraving
+                  </li>
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    Occupancy and daylight sensors for automation
+                  </li>
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    Seamless Josh.ai and third-party integration
+                  </li>
+                </ul>
               </SectionReveal>
             </div>
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/svc-automation.jpg"
-                  alt="Unified home automation app interface on tablet and smartphone"
+                  src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=1600&q=80"
+                  alt="Lutron RadioRA 3 wireless lighting control system luxury installation Twin Cities"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -217,50 +237,72 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Lifestyle-Centered Design */}
+      {/* Ketra Integration */}
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-16 lg:mb-20">
             <SectionReveal>
               <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                Designed Around Your Lifestyle
+                Ketra — The Science of Light
               </h2>
             </SectionReveal>
             <SectionReveal delay={0.1}>
               <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
-                We don't just install technology — we study how you live. Your automation system learns your patterns, anticipates your needs, and adapts to seasonal changes and special events.
+                As one of the original 60 Ketra dealers nationwide, NorthStar brings you lighting that follows natural circadian rhythms and delivers perfect color at any temperature — from candlelight warmth to bright daylight.
               </p>
             </SectionReveal>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <SectionReveal delay={0.1}>
-              <div className="bg-cream p-8 text-center">
-                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Morning Routines
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">CCT</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Tunable White
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Wake to gradual lighting, optimal temperature, and your favorite news briefing automatically.
+                  1400K candlelight to 10,000K bright daylight with perfect color rendering.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
-              <div className="bg-cream p-8 text-center">
-                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Entertainment Modes
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">CRI</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Perfect Color
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  "Party mode" adjusts lighting throughout, activates outdoor speakers, and sets perfect ambiance.
+                  95+ CRI ensures artwork, fabrics, and finishes appear exactly as intended.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.3}>
-              <div className="bg-cream p-8 text-center">
-                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Away & Vacation
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">RGB</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Vibrant Color
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Simulate occupancy, monitor security systems, and maintain optimal conditions while you're away.
+                  Full spectrum color for entertainment, holidays, and architectural highlighting.
+                </p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={0.4}>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">NLB</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Natural Light
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Follows sun's path throughout the day to support healthy circadian rhythms.
                 </p>
               </div>
             </SectionReveal>
@@ -268,18 +310,18 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Technology That Disappears */}
+      {/* Twin Cities Expertise */}
       <section className="bg-deep-navy py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
           <SectionReveal>
             <div className="gold-rule mx-auto mb-6" />
             <h2 className="font-forum text-cream text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-              Technology That Disappears Into Architecture
+              Twin Cities Lutron Specialists
             </h2>
           </SectionReveal>
           <SectionReveal delay={0.1}>
             <p className="font-body text-cream/60 text-[16px] lg:text-[18px] leading-[1.85] max-w-4xl mx-auto mb-12">
-              The best automation systems are invisible until you need them. Our philosophy centers on technology that enhances your home's architecture rather than competing with it. Sensors, controls, and interfaces integrate seamlessly into your design vision.
+              Every Twin Cities neighborhood presents unique lighting challenges — from historic Tudor estates in Minnetonka to modern lakefront homes in Orono. Our expertise ensures your Lutron system integrates perfectly with your home's architecture and your family's lifestyle.
             </p>
           </SectionReveal>
           
@@ -287,40 +329,40 @@ export default function HomeAutomationPage() {
             <SectionReveal delay={0.15}>
               <div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Invisible Sensors
+                  Historic Homes
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Motion, temperature, and light sensors hidden within architecture
+                  Sensitive integration with period architecture and heritage features
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
               <div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Flush-Mounted Controls
+                  Lakefront Properties
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Touch panels and keypads that blend seamlessly into walls
+                  Outdoor lighting and weather-resistant components for waterfront living
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.25}>
               <div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Hidden Infrastructure
+                  Contemporary Design
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Equipment racks and wiring concealed in utility spaces
+                  Clean integration with modern architecture and minimalist aesthetics
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.3}>
               <div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Wireless When Needed
+                  Energy Efficiency
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Strategic use of wireless technology where hardwiring isn't optimal
+                  Advanced scheduling and occupancy sensing for Minnesota's energy goals
                 </p>
               </div>
             </SectionReveal>
@@ -328,56 +370,36 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Remote Access & Management */}
+      {/* Service Areas */}
       <section className="bg-cream py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div>
-              <SectionReveal>
-                <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                  Remote Access & Management
-                </h2>
-              </SectionReveal>
-              <SectionReveal delay={0.1}>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
-                  Your home stays connected to you wherever you travel. Monitor security cameras, adjust temperature before you arrive, or check that you remembered to close the garage door.
-                </p>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
-                  Our team provides remote support and system updates, ensuring your automation evolves with new features and capabilities over time.
-                </p>
-              </SectionReveal>
-              <SectionReveal delay={0.2}>
-                <ul className="space-y-3">
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Secure cloud connectivity for remote access
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Real-time monitoring and alerts
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Remote system diagnostics and support
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Automatic software updates and improvements
-                  </li>
-                </ul>
-              </SectionReveal>
-            </div>
-            <SectionReveal direction="right">
-              <div className="relative aspect-[4/3] overflow-hidden img-zoom">
-                <Image
-                  src="/photos/processed/luxury-kitchen.jpg"
-                  alt="Remote home automation control interface on mobile device"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </div>
+          <div className="text-center mb-16 lg:mb-20">
+            <SectionReveal>
+              <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
+                Serving Luxury Twin Cities Homes
+              </h2>
             </SectionReveal>
+            <SectionReveal delay={0.1}>
+              <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
+                Professional Lutron installation throughout the Minneapolis metropolitan area, specializing in luxury communities and custom homes.
+              </p>
+            </SectionReveal>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            {[
+              "Minnetonka", "Wayzata", "Edina", "Orono",
+              "Dellwood", "Grant", "Afton", "Deephaven",
+              "Medina", "Plymouth", "Minnetrista", "St. Louis Park"
+            ].map((city, index) => (
+              <SectionReveal key={city} delay={0.1 + index * 0.05}>
+                <div className="text-center p-4">
+                  <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase">
+                    {city}
+                  </h3>
+                </div>
+              </SectionReveal>
+            ))}
           </div>
         </div>
       </section>
@@ -388,12 +410,12 @@ export default function HomeAutomationPage() {
           <SectionReveal>
             <div className="gold-rule mx-auto mb-8" />
             <h2 className="font-forum text-deep-navy text-[32px] lg:text-[48px] tracking-[0.03em] uppercase leading-[1.1] mb-6">
-              Experience Intelligent Automation
+              Experience Lutron Excellence
             </h2>
           </SectionReveal>
           <SectionReveal delay={0.15}>
             <p className="font-body text-slate-blue text-[16px] leading-[1.8] mb-10 max-w-lg mx-auto">
-              Discover how home automation can enhance your daily life. Schedule a consultation to explore the possibilities for your home.
+              Discover why luxury homeowners throughout the Twin Cities choose NorthStar for their Lutron lighting systems. Award-winning expertise, professional installation, ongoing support.
             </p>
           </SectionReveal>
           <SectionReveal delay={0.3}>

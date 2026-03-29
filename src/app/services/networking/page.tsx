@@ -4,80 +4,80 @@ import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
 
 export const metadata: Metadata = {
-  title: "Home Automation Minnetonka Wayzata Edina | Josh.ai Voice Control | NorthStar",
-  description: "Intelligent home automation with Josh.ai voice control for luxury homes in Minnetonka, Wayzata, Edina, Orono. Seamlessly integrate lighting, climate, entertainment, and security.",
+  title: "Home Networking Minneapolis | Ubiquiti Network Installation | Twin Cities | NorthStar",
+  description: "Enterprise-grade home networking installation in Minneapolis Twin Cities. Professional Ubiquiti network design for luxury homes in Minnetonka, Wayzata, Edina.",
   alternates: {
-    canonical: '/services/home-automation',
+    canonical: '/services/networking',
   },
 };
 
-export default function HomeAutomationPage() {
+export default function NetworkingPage() {
   return (
     <>
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="/photos/processed/svc-automation.jpg"
-          alt="Smart home automation interface in luxury Minneapolis residence"
+          src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1600&q=80"
+          alt="Enterprise home networking equipment rack Ubiquiti installation Minneapolis Twin Cities"
           fill
           className="object-cover"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 text-center px-6">
           <SectionReveal>
             <div className="gold-rule mx-auto mb-6" />
             <h1 className="font-forum text-cream text-[36px] sm:text-[48px] lg:text-[64px] tracking-[0.03em] uppercase leading-[1.05]">
-              Your Home Responds to You
+              Enterprise Home Networking
             </h1>
             <p className="font-body text-cream/60 text-[16px] lg:text-[18px] mt-4 max-w-2xl mx-auto leading-[1.7]">
-              Intelligent automation for luxury homes in Minnetonka, Wayzata, Edina, and Twin Cities
+              Professional network infrastructure for connected luxury homes throughout the Twin Cities
             </p>
           </SectionReveal>
         </div>
       </section>
 
-      {/* Josh.ai Voice Control */}
+      {/* The Foundation of Smart Homes */}
       <section className="bg-cream py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <SectionReveal>
                 <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                  Josh.ai Voice Control
+                  The Invisible Foundation
                 </h2>
               </SectionReveal>
               <SectionReveal delay={0.1}>
                 <p className="font-body text-[14px] text-warm-taupe font-semibold uppercase tracking-[0.1em] mb-6">
-                  THE LUXURY VOICE PLATFORM
+                  ENTERPRISE-GRADE INFRASTRUCTURE
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.15}>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
-                  As the first Josh.ai dealer in the Midwest, NorthStar brings you the voice control platform designed specifically for luxury custom homes. Unlike consumer devices, Josh.ai prioritizes privacy, reliability, and sophisticated integration.
+                  Your luxury home's networking infrastructure is like the electrical system — invisible but essential for everything to work. From lighting control and entertainment to security and automation, every smart device depends on reliable, high-performance networking.
                 </p>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
-                  Your voice commands stay within your home's network, ensuring privacy while delivering natural, conversational control over every system — lighting, climate, entertainment, shades, and security.
+                  NorthStar designs and installs enterprise-grade networks using professional Ubiquiti equipment — the same technology trusted by businesses, but optimized for luxury homes in Minnetonka, Wayzata, Edina, and throughout the Twin Cities.
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.2}>
                 <ul className="space-y-3">
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Privacy-focused — no cloud dependency
+                    Ubiquiti Dream Machine and professional access points
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Natural conversation, not rigid commands
+                    Fiber optic backbone for maximum bandwidth
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Whole-home audio distribution
+                    Structured wiring throughout the home
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Works even without internet
+                    Professional equipment racks and cable management
                   </li>
                 </ul>
               </SectionReveal>
@@ -85,8 +85,8 @@ export default function HomeAutomationPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/work-lighting-01.jpg"
-                  alt="Josh.ai voice control interface in sophisticated living space"
+                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80"
+                  alt="Professional home networking equipment rack with structured wiring and enterprise components"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -97,80 +97,80 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* What Automation Covers */}
+      {/* Ubiquiti Ecosystem */}
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-16 lg:mb-20">
             <SectionReveal>
               <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                Complete Home Integration
+                Ubiquiti Professional Ecosystem
               </h2>
             </SectionReveal>
             <SectionReveal delay={0.1}>
               <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
-                True home automation goes beyond individual smart devices. We create unified systems where every element works together — lighting, climate, entertainment, shades, and security responding as one.
+                We exclusively use Ubiquiti's professional line of networking equipment — proven in enterprise environments but designed with the aesthetics and reliability expected in luxury homes.
               </p>
             </SectionReveal>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <SectionReveal delay={0.1}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Lighting Scenes
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Dream Machine Pro
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  "Good morning" raises shades and brings up warm lighting. "Movie time" dims lights and activates entertainment.
+                  Enterprise gateway with built-in NVR, threat management, and advanced routing capabilities.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Climate Control
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  WiFi 6E Access Points
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Temperature adjusts automatically based on occupancy, time of day, and seasonal preferences.
+                  Latest generation wireless technology with seamless roaming and enterprise-grade performance.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.3}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Entertainment
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Professional Switches
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Music follows you through the house, and video sources connect seamlessly to any display.
+                  PoE+ switching infrastructure to power access points, cameras, and other network devices.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.4}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Motorized Shades
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Fiber Distribution
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Coordinated with lighting for optimal daylight harvesting and privacy throughout the day.
+                  Single-mode and multi-mode fiber connections for maximum bandwidth and future-proofing.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.5}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Security Systems
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Network Management
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Surveillance, access control, and monitoring integrated into your daily routines.
+                  UniFi controller provides centralized monitoring, configuration, and troubleshooting.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.6}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Pool & Spa
+              <div className="bg-cream p-8 text-center">
+                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
+                  Remote Support
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Temperature, lighting, and water features controlled through the same interface.
+                  24/7 monitoring and remote diagnostics ensure optimal performance at all times.
                 </p>
               </div>
             </SectionReveal>
@@ -178,35 +178,55 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Single App Control */}
+      {/* Coverage & Performance */}
       <section className="bg-cream py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="lg:order-2">
               <SectionReveal>
                 <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                  One App. Everything.
+                  Complete Coverage & Performance
                 </h2>
               </SectionReveal>
               <SectionReveal delay={0.1}>
                 <p className="font-body text-[14px] text-warm-taupe font-semibold uppercase tracking-[0.1em] mb-6">
-                  UNIFIED CONTROL PLATFORM
+                  EVERY ROOM, EVERY DEVICE
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.15}>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
-                  No more switching between dozens of apps to control your home. Our unified platform puts everything at your fingertips — whether you're at home, at the office, or traveling.
+                  Professional site surveys ensure optimal access point placement for seamless coverage throughout your home — from basement to attic, indoor to outdoor entertainment areas. No dead zones, no slow connections, no dropped devices.
                 </p>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85]">
-                  Custom interfaces designed for your specific home layout and preferences. Control individual devices or activate complex scenes with a single touch. Monitor your home's status from anywhere in the world.
+                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
+                  Our networks handle hundreds of connected devices simultaneously — smart lighting, entertainment systems, security cameras, tablets, phones, and IoT devices — all without compromising performance.
                 </p>
+              </SectionReveal>
+              <SectionReveal delay={0.2}>
+                <ul className="space-y-3">
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    Professional heat mapping for optimal coverage
+                  </li>
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    Multi-gigabit backbone infrastructure
+                  </li>
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    Dedicated IoT and guest networks for security
+                  </li>
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    Outdoor coverage for patios, pools, and gardens
+                  </li>
+                </ul>
               </SectionReveal>
             </div>
             <SectionReveal direction="left" className="lg:order-1">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/svc-automation.jpg"
-                  alt="Unified home automation app interface on tablet and smartphone"
+                  src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?w=1600&q=80"
+                  alt="WiFi coverage heatmap showing complete network coverage throughout luxury home"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -217,50 +237,72 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Lifestyle-Centered Design */}
+      {/* Structured Wiring */}
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-16 lg:mb-20">
             <SectionReveal>
               <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                Designed Around Your Lifestyle
+                Structured Wiring Infrastructure
               </h2>
             </SectionReveal>
             <SectionReveal delay={0.1}>
               <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
-                We don't just install technology — we study how you live. Your automation system learns your patterns, anticipates your needs, and adapts to seasonal changes and special events.
+                Professional structured wiring provides the physical backbone for all network services — from high-speed internet to entertainment distribution and automation control.
               </p>
             </SectionReveal>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <SectionReveal delay={0.1}>
-              <div className="bg-cream p-8 text-center">
-                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Morning Routines
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">CAT</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Cat 6A Ethernet
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Wake to gradual lighting, optimal temperature, and your favorite news briefing automatically.
+                  10-gigabit capable copper connections to every room and device location.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
-              <div className="bg-cream p-8 text-center">
-                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Entertainment Modes
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">FIB</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Fiber Backbone
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  "Party mode" adjusts lighting throughout, activates outdoor speakers, and sets perfect ambiance.
+                  Single and multi-mode fiber for maximum bandwidth and future expansion.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.3}>
-              <div className="bg-cream p-8 text-center">
-                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Away & Vacation
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">RG6</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Coax Distribution
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Simulate occupancy, monitor security systems, and maintain optimal conditions while you're away.
+                  High-quality coaxial wiring for cable services and antenna distribution.
+                </p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={0.4}>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">PWR</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Power over Ethernet
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  PoE+ capabilities eliminate power adapters for access points and cameras.
                 </p>
               </div>
             </SectionReveal>
@@ -268,18 +310,18 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Technology That Disappears */}
+      {/* Security & Monitoring */}
       <section className="bg-deep-navy py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
           <SectionReveal>
             <div className="gold-rule mx-auto mb-6" />
             <h2 className="font-forum text-cream text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-              Technology That Disappears Into Architecture
+              Security & Network Monitoring
             </h2>
           </SectionReveal>
           <SectionReveal delay={0.1}>
             <p className="font-body text-cream/60 text-[16px] lg:text-[18px] leading-[1.85] max-w-4xl mx-auto mb-12">
-              The best automation systems are invisible until you need them. Our philosophy centers on technology that enhances your home's architecture rather than competing with it. Sensors, controls, and interfaces integrate seamlessly into your design vision.
+              Enterprise-grade security features protect your network from threats while providing complete visibility into device connectivity and performance throughout your Twin Cities home.
             </p>
           </SectionReveal>
           
@@ -287,40 +329,40 @@ export default function HomeAutomationPage() {
             <SectionReveal delay={0.15}>
               <div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Invisible Sensors
+                  Threat Detection
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Motion, temperature, and light sensors hidden within architecture
+                  Real-time intrusion detection and automatic threat blocking
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
               <div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Flush-Mounted Controls
+                  Network Segmentation
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Touch panels and keypads that blend seamlessly into walls
+                  Isolated VLANs for IoT devices, guests, and critical systems
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.25}>
               <div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Hidden Infrastructure
+                  24/7 Monitoring
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Equipment racks and wiring concealed in utility spaces
+                  Continuous performance monitoring with proactive issue resolution
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.3}>
               <div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Wireless When Needed
+                  Remote Management
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Strategic use of wireless technology where hardwiring isn't optimal
+                  Secure remote access for updates, troubleshooting, and optimization
                 </p>
               </div>
             </SectionReveal>
@@ -328,56 +370,36 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Remote Access & Management */}
+      {/* Twin Cities Installation */}
       <section className="bg-cream py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div>
-              <SectionReveal>
-                <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                  Remote Access & Management
-                </h2>
-              </SectionReveal>
-              <SectionReveal delay={0.1}>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
-                  Your home stays connected to you wherever you travel. Monitor security cameras, adjust temperature before you arrive, or check that you remembered to close the garage door.
-                </p>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
-                  Our team provides remote support and system updates, ensuring your automation evolves with new features and capabilities over time.
-                </p>
-              </SectionReveal>
-              <SectionReveal delay={0.2}>
-                <ul className="space-y-3">
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Secure cloud connectivity for remote access
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Real-time monitoring and alerts
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Remote system diagnostics and support
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Automatic software updates and improvements
-                  </li>
-                </ul>
-              </SectionReveal>
-            </div>
-            <SectionReveal direction="right">
-              <div className="relative aspect-[4/3] overflow-hidden img-zoom">
-                <Image
-                  src="/photos/processed/luxury-kitchen.jpg"
-                  alt="Remote home automation control interface on mobile device"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </div>
+          <div className="text-center mb-16 lg:mb-20">
+            <SectionReveal>
+              <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
+                Professional Twin Cities Installation
+              </h2>
             </SectionReveal>
+            <SectionReveal delay={0.1}>
+              <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
+                From historic homes in Minnetonka to modern lakefront estates in Orono, we design and install networks that respect your home's architecture while delivering uncompromising performance.
+              </p>
+            </SectionReveal>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            {[
+              "Minnetonka", "Wayzata", "Edina", "Orono",
+              "Dellwood", "Grant", "Afton", "Deephaven",
+              "Medina", "Plymouth", "Minnetrista", "St. Louis Park"
+            ].map((city, index) => (
+              <SectionReveal key={city} delay={0.1 + index * 0.05}>
+                <div className="text-center p-4">
+                  <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase">
+                    {city}
+                  </h3>
+                </div>
+              </SectionReveal>
+            ))}
           </div>
         </div>
       </section>
@@ -388,12 +410,12 @@ export default function HomeAutomationPage() {
           <SectionReveal>
             <div className="gold-rule mx-auto mb-8" />
             <h2 className="font-forum text-deep-navy text-[32px] lg:text-[48px] tracking-[0.03em] uppercase leading-[1.1] mb-6">
-              Experience Intelligent Automation
+              Build Your Network Foundation
             </h2>
           </SectionReveal>
           <SectionReveal delay={0.15}>
             <p className="font-body text-slate-blue text-[16px] leading-[1.8] mb-10 max-w-lg mx-auto">
-              Discover how home automation can enhance your daily life. Schedule a consultation to explore the possibilities for your home.
+              Ready to upgrade your home's network infrastructure? Schedule a consultation to discuss enterprise-grade networking for your Minneapolis area home.
             </p>
           </SectionReveal>
           <SectionReveal delay={0.3}>

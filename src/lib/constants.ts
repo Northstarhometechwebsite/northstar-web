@@ -53,51 +53,66 @@ export const COLORS = {
 
 export const SERVICES = [
   {
-    id: "lighting",
-    title: "Lighting Design",
-    description:
-      "Bespoke lighting that follows circadian rhythms, enhances architecture, and transforms spaces. Ketra tunable lighting, Lutron control, and architectural fixtures.",
-    href: "/services/lighting",
-    icon: "lighting",
+    id: "retrofit-automation",
+    title: "Smart Home Retrofit",
+    description: "Transform existing homes into smart homes without major construction or disruption.",
+    href: "/services/retrofit-automation",
+    icon: "retrofit",
   },
   {
-    id: "automation",
+    id: "system-takeover",
+    title: "System Takeover & Rescue",
+    description: "Take over and fix failing smart home systems from previous installers.",
+    href: "/services/system-takeover",
+    icon: "takeover",
+  },
+  {
+    id: "home-automation",
     title: "Home Automation",
-    description:
-      "Whole-home control through intuitive interfaces. Josh AI voice automation, one-touch scenes, scheduling, and remote access.",
-    href: "/services",
+    description: "Whole-home control through intuitive interfaces with Josh.ai voice automation.",
+    href: "/services/home-automation",
     icon: "automation",
   },
   {
-    id: "av",
-    title: "Audio & Video",
-    description:
-      "Distributed audio, dedicated home theaters with immersive sound, hidden speakers, and 4K/8K video distribution throughout.",
-    href: "/services",
-    icon: "av",
+    id: "home-theater",
+    title: "Home Theater",
+    description: "Dedicated theaters and entertainment spaces with immersive audio and video.",
+    href: "/services/home-theater",
+    icon: "theater",
   },
   {
-    id: "shades",
+    id: "lutron-lighting",
+    title: "Lutron Lighting",
+    description: "Professional Lutron HomeWorks QSX and RadioRA 3 lighting control systems.",
+    href: "/services/lutron-lighting",
+    icon: "lighting",
+  },
+  {
+    id: "josh-ai",
+    title: "Josh.ai Voice Control",
+    description: "Privacy-focused luxury voice automation platform for custom homes.",
+    href: "/services/josh-ai",
+    icon: "voice",
+  },
+  {
+    id: "motorized-shades",
     title: "Motorized Shades",
-    description:
-      "Lutron Palladiom and premium shade systems integrated with lighting scenes for automatic daylight harvesting.",
-    href: "/services",
+    description: "Lutron Palladiom and premium shade systems integrated with lighting scenes.",
+    href: "/services/motorized-shades",
     icon: "shades",
   },
   {
     id: "networking",
-    title: "Networking & Infrastructure",
-    description:
-      "Enterprise-grade networking, structured wiring, and fiber optic backbone. Reliable coverage for every device, every room.",
-    href: "/services",
+    title: "Networking",
+    description: "Enterprise-grade Ubiquiti networking infrastructure for connected homes.",
+    href: "/services/networking",
     icon: "networking",
   },
   {
     id: "security",
     title: "Security & Surveillance",
-    description:
-      "Integrated security systems, high-definition surveillance, access control, and smart locks with a privacy-first approach.",
-    href: "/services",
+    description: "Professional security systems with IC Realtime cameras and DSC monitoring.",
+    href: "/services/security",
     icon: "security",
   },
 ] as const;

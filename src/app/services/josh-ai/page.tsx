@@ -4,21 +4,21 @@ import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
 
 export const metadata: Metadata = {
-  title: "Home Automation Minnetonka Wayzata Edina | Josh.ai Voice Control | NorthStar",
-  description: "Intelligent home automation with Josh.ai voice control for luxury homes in Minnetonka, Wayzata, Edina, Orono. Seamlessly integrate lighting, climate, entertainment, and security.",
+  title: "Josh.ai Dealer Minneapolis | Luxury Voice Control | Twin Cities | NorthStar",
+  description: "First Josh.ai dealer in the Midwest. Privacy-focused voice automation for luxury Twin Cities homes. Professional Josh.ai installation in Minnetonka, Wayzata, Edina.",
   alternates: {
-    canonical: '/services/home-automation',
+    canonical: '/services/josh-ai',
   },
 };
 
-export default function HomeAutomationPage() {
+export default function JoshAiPage() {
   return (
     <>
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
-          src="/photos/processed/svc-automation.jpg"
-          alt="Smart home automation interface in luxury Minneapolis residence"
+          src="https://images.unsplash.com/photo-1583225173216-b25c6b121e04?w=1600&q=80"
+          alt="Josh.ai voice control smart home automation Minneapolis Twin Cities luxury installation"
           fill
           className="object-cover"
           priority
@@ -29,43 +29,47 @@ export default function HomeAutomationPage() {
           <SectionReveal>
             <div className="gold-rule mx-auto mb-6" />
             <h1 className="font-forum text-cream text-[36px] sm:text-[48px] lg:text-[64px] tracking-[0.03em] uppercase leading-[1.05]">
-              Your Home Responds to You
+              Josh.ai Voice Control
             </h1>
             <p className="font-body text-cream/60 text-[16px] lg:text-[18px] mt-4 max-w-2xl mx-auto leading-[1.7]">
-              Intelligent automation for luxury homes in Minnetonka, Wayzata, Edina, and Twin Cities
+              Privacy-focused luxury voice automation for discerning Twin Cities homeowners
             </p>
           </SectionReveal>
         </div>
       </section>
 
-      {/* Josh.ai Voice Control */}
+      {/* First in the Midwest */}
       <section className="bg-cream py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <SectionReveal>
                 <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                  Josh.ai Voice Control
+                  First Josh.ai Dealer in the Midwest
                 </h2>
               </SectionReveal>
               <SectionReveal delay={0.1}>
                 <p className="font-body text-[14px] text-warm-taupe font-semibold uppercase tracking-[0.1em] mb-6">
-                  THE LUXURY VOICE PLATFORM
+                  PRESIDENT'S CLUB & CHAIRMAN ACCOLADE
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.15}>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
-                  As the first Josh.ai dealer in the Midwest, NorthStar brings you the voice control platform designed specifically for luxury custom homes. Unlike consumer devices, Josh.ai prioritizes privacy, reliability, and sophisticated integration.
+                  NorthStar was the first Josh.ai dealer in the Midwest, bringing luxury voice control to Minneapolis area homes before anyone else. Our expertise has earned us Josh.ai's President's Club recognition and Chairman Accolade — the highest honors in the Josh.ai dealer network.
                 </p>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
-                  Your voice commands stay within your home's network, ensuring privacy while delivering natural, conversational control over every system — lighting, climate, entertainment, shades, and security.
+                  Unlike consumer voice assistants that prioritize data collection, Josh.ai is purpose-built for luxury custom homes in communities like Minnetonka, Wayzata, and Edina — where privacy, reliability, and sophistication matter most.
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.2}>
                 <ul className="space-y-3">
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Privacy-focused — no cloud dependency
+                    Local processing — your conversations stay in your home
+                  </li>
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    Works offline — no internet dependence
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
@@ -73,11 +77,7 @@ export default function HomeAutomationPage() {
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Whole-home audio distribution
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Works even without internet
+                    Seamless Lutron and third-party integration
                   </li>
                 </ul>
               </SectionReveal>
@@ -85,8 +85,8 @@ export default function HomeAutomationPage() {
             <SectionReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
-                  src="/photos/processed/work-lighting-01.jpg"
-                  alt="Josh.ai voice control interface in sophisticated living space"
+                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1600&q=80"
+                  alt="Josh.ai luxury voice control system installation showing privacy-focused smart home"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -97,7 +97,155 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* What Automation Covers */}
+      {/* Privacy-First Design */}
+      <section className="bg-white py-24 lg:py-32">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="text-center mb-16 lg:mb-20">
+            <SectionReveal>
+              <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
+                Privacy-First Voice Control
+              </h2>
+            </SectionReveal>
+            <SectionReveal delay={0.1}>
+              <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
+                Josh.ai processes your voice commands locally on dedicated hardware in your home. No data mining, no cloud dependency, no corporate surveillance — just intelligent automation that respects your privacy.
+              </p>
+            </SectionReveal>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <SectionReveal delay={0.1}>
+              <div className="text-center p-6">
+                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
+                  Local Processing
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Voice recognition and natural language processing happen entirely within your home network.
+                </p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={0.2}>
+              <div className="text-center p-6">
+                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
+                  No Data Collection
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Josh.ai doesn't collect, store, or sell your personal information or conversation data.
+                </p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={0.3}>
+              <div className="text-center p-6">
+                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
+                  Offline Capability
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Core functionality works even when internet is down — true reliability for luxury homes.
+                </p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={0.4}>
+              <div className="text-center p-6">
+                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
+                  Secure Infrastructure
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Military-grade encryption and isolated network architecture protect your home systems.
+                </p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={0.5}>
+              <div className="text-center p-6">
+                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
+                  Custom Wake Words
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Choose your own wake word — no generic "Alexa" or "Hey Google" required.
+                </p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={0.6}>
+              <div className="text-center p-6">
+                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
+                  Family Profiles
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Voice recognition for family members with personalized preferences and access levels.
+                </p>
+              </div>
+            </SectionReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Natural Conversation */}
+      <section className="bg-cream py-24 lg:py-32">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+            <div className="lg:order-2">
+              <SectionReveal>
+                <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
+                  Natural Conversation
+                </h2>
+              </SectionReveal>
+              <SectionReveal delay={0.1}>
+                <p className="font-body text-[14px] text-warm-taupe font-semibold uppercase tracking-[0.1em] mb-6">
+                  INTELLIGENT HOME INTERACTION
+                </p>
+              </SectionReveal>
+              <SectionReveal delay={0.15}>
+                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
+                  Josh.ai understands context and natural speech patterns. Instead of memorizing specific commands, you can speak to your home the way you'd speak to a knowledgeable assistant — naturally and conversationally.
+                </p>
+                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
+                  "Turn on the lights in the living room" works just as well as "Josh, I need some light over here" or "It's getting dark in here." The system learns your preferences and speaking patterns over time.
+                </p>
+              </SectionReveal>
+              <SectionReveal delay={0.2}>
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded border-l-2 border-warm-gold">
+                    <p className="font-body text-[14px] text-slate-blue italic">
+                      "Josh, let's watch a movie"
+                    </p>
+                    <p className="font-body text-[12px] text-warm-taupe mt-1">
+                      → Dims lights, lowers shades, activates entertainment system
+                    </p>
+                  </div>
+                  <div className="bg-white p-4 rounded border-l-2 border-warm-gold">
+                    <p className="font-body text-[14px] text-slate-blue italic">
+                      "Good morning, Josh"
+                    </p>
+                    <p className="font-body text-[12px] text-warm-taupe mt-1">
+                      → Raises shades, adjusts temperature, starts coffee, gives weather
+                    </p>
+                  </div>
+                  <div className="bg-white p-4 rounded border-l-2 border-warm-gold">
+                    <p className="font-body text-[14px] text-slate-blue italic">
+                      "Josh, we're leaving for vacation tomorrow"
+                    </p>
+                    <p className="font-body text-[12px] text-warm-taupe mt-1">
+                      → Activates security mode, adjusts thermostat, schedules lighting
+                    </p>
+                  </div>
+                </div>
+              </SectionReveal>
+            </div>
+            <SectionReveal direction="left" className="lg:order-1">
+              <div className="relative aspect-[4/3] overflow-hidden img-zoom">
+                <Image
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80"
+                  alt="Josh.ai natural voice conversation control in luxury Twin Cities home"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+            </SectionReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Whole-Home Integration */}
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-16 lg:mb-20">
@@ -108,69 +256,61 @@ export default function HomeAutomationPage() {
             </SectionReveal>
             <SectionReveal delay={0.1}>
               <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
-                True home automation goes beyond individual smart devices. We create unified systems where every element works together — lighting, climate, entertainment, shades, and security responding as one.
+                Josh.ai integrates with over 100 brands and thousands of products, creating unified voice control for every system in your Minneapolis area home.
               </p>
             </SectionReveal>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <SectionReveal delay={0.1}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Lighting Scenes
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">LUT</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Lutron Lighting
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  "Good morning" raises shades and brings up warm lighting. "Movie time" dims lights and activates entertainment.
+                  Native integration with HomeWorks QSX and RadioRA 3 systems.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Climate Control
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">AV</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Entertainment
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Temperature adjusts automatically based on occupancy, time of day, and seasonal preferences.
+                  Control Sonos, Apple TV, streaming services, and whole-home audio.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.3}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Entertainment
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">CLI</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                  Climate Control
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Music follows you through the house, and video sources connect seamlessly to any display.
+                  HVAC systems, thermostats, and individual zone temperature control.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.4}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Motorized Shades
-                </h3>
-                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Coordinated with lighting for optimal daylight harvesting and privacy throughout the day.
-                </p>
-              </div>
-            </SectionReveal>
-            <SectionReveal delay={0.5}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[14px]">SEC</span>
+                </div>
+                <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
                   Security Systems
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Surveillance, access control, and monitoring integrated into your daily routines.
-                </p>
-              </div>
-            </SectionReveal>
-            <SectionReveal delay={0.6}>
-              <div className="text-center p-6">
-                <h3 className="font-forum text-deep-navy text-[20px] tracking-[0.05em] uppercase mb-4">
-                  Pool & Spa
-                </h3>
-                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Temperature, lighting, and water features controlled through the same interface.
+                  Surveillance cameras, door locks, alarm systems, and access control.
                 </p>
               </div>
             </SectionReveal>
@@ -178,149 +318,71 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Single App Control */}
-      <section className="bg-cream py-24 lg:py-32">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div className="lg:order-2">
-              <SectionReveal>
-                <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                  One App. Everything.
-                </h2>
-              </SectionReveal>
-              <SectionReveal delay={0.1}>
-                <p className="font-body text-[14px] text-warm-taupe font-semibold uppercase tracking-[0.1em] mb-6">
-                  UNIFIED CONTROL PLATFORM
-                </p>
-              </SectionReveal>
-              <SectionReveal delay={0.15}>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
-                  No more switching between dozens of apps to control your home. Our unified platform puts everything at your fingertips — whether you're at home, at the office, or traveling.
-                </p>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85]">
-                  Custom interfaces designed for your specific home layout and preferences. Control individual devices or activate complex scenes with a single touch. Monitor your home's status from anywhere in the world.
-                </p>
-              </SectionReveal>
-            </div>
-            <SectionReveal direction="left" className="lg:order-1">
-              <div className="relative aspect-[4/3] overflow-hidden img-zoom">
-                <Image
-                  src="/photos/processed/svc-automation.jpg"
-                  alt="Unified home automation app interface on tablet and smartphone"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </div>
-            </SectionReveal>
-          </div>
-        </div>
-      </section>
-
-      {/* Lifestyle-Centered Design */}
-      <section className="bg-white py-24 lg:py-32">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="text-center mb-16 lg:mb-20">
-            <SectionReveal>
-              <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                Designed Around Your Lifestyle
-              </h2>
-            </SectionReveal>
-            <SectionReveal delay={0.1}>
-              <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
-                We don't just install technology — we study how you live. Your automation system learns your patterns, anticipates your needs, and adapts to seasonal changes and special events.
-              </p>
-            </SectionReveal>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <SectionReveal delay={0.1}>
-              <div className="bg-cream p-8 text-center">
-                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Morning Routines
-                </h3>
-                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Wake to gradual lighting, optimal temperature, and your favorite news briefing automatically.
-                </p>
-              </div>
-            </SectionReveal>
-            <SectionReveal delay={0.2}>
-              <div className="bg-cream p-8 text-center">
-                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Entertainment Modes
-                </h3>
-                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  "Party mode" adjusts lighting throughout, activates outdoor speakers, and sets perfect ambiance.
-                </p>
-              </div>
-            </SectionReveal>
-            <SectionReveal delay={0.3}>
-              <div className="bg-cream p-8 text-center">
-                <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Away & Vacation
-                </h3>
-                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Simulate occupancy, monitor security systems, and maintain optimal conditions while you're away.
-                </p>
-              </div>
-            </SectionReveal>
-          </div>
-        </div>
-      </section>
-
-      {/* Technology That Disappears */}
+      {/* Installation Process */}
       <section className="bg-deep-navy py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
           <SectionReveal>
             <div className="gold-rule mx-auto mb-6" />
             <h2 className="font-forum text-cream text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-              Technology That Disappears Into Architecture
+              Professional Josh.ai Installation
             </h2>
           </SectionReveal>
           <SectionReveal delay={0.1}>
             <p className="font-body text-cream/60 text-[16px] lg:text-[18px] leading-[1.85] max-w-4xl mx-auto mb-12">
-              The best automation systems are invisible until you need them. Our philosophy centers on technology that enhances your home's architecture rather than competing with it. Sensors, controls, and interfaces integrate seamlessly into your design vision.
+              Our certified Josh.ai installation process ensures optimal performance, complete integration, and thorough training for your entire family.
             </p>
           </SectionReveal>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <SectionReveal delay={0.15}>
               <div>
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[20px]">01</span>
+                </div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Invisible Sensors
+                  System Design
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Motion, temperature, and light sensors hidden within architecture
+                  Custom configuration based on your home's layout, systems, and family preferences
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
               <div>
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[20px]">02</span>
+                </div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Flush-Mounted Controls
+                  Infrastructure Setup
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Touch panels and keypads that blend seamlessly into walls
+                  Dedicated Josh.ai hardware installation with secure network configuration
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.25}>
               <div>
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[20px]">03</span>
+                </div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Hidden Infrastructure
+                  Integration & Testing
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Equipment racks and wiring concealed in utility spaces
+                  Connect all home systems and thoroughly test voice recognition and responses
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.3}>
               <div>
+                <div className="w-16 h-16 bg-warm-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="font-forum text-deep-navy text-[20px]">04</span>
+                </div>
                 <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
-                  Wireless When Needed
+                  Family Training
                 </h3>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
-                  Strategic use of wireless technology where hardwiring isn't optimal
+                  Comprehensive walkthrough and voice training for every family member
                 </p>
               </div>
             </SectionReveal>
@@ -328,56 +390,36 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
-      {/* Remote Access & Management */}
+      {/* Twin Cities Expertise */}
       <section className="bg-cream py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div>
-              <SectionReveal>
-                <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                  Remote Access & Management
-                </h2>
-              </SectionReveal>
-              <SectionReveal delay={0.1}>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
-                  Your home stays connected to you wherever you travel. Monitor security cameras, adjust temperature before you arrive, or check that you remembered to close the garage door.
-                </p>
-                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
-                  Our team provides remote support and system updates, ensuring your automation evolves with new features and capabilities over time.
-                </p>
-              </SectionReveal>
-              <SectionReveal delay={0.2}>
-                <ul className="space-y-3">
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Secure cloud connectivity for remote access
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Real-time monitoring and alerts
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Remote system diagnostics and support
-                  </li>
-                  <li className="font-body text-[14px] text-slate-blue flex items-center">
-                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Automatic software updates and improvements
-                  </li>
-                </ul>
-              </SectionReveal>
-            </div>
-            <SectionReveal direction="right">
-              <div className="relative aspect-[4/3] overflow-hidden img-zoom">
-                <Image
-                  src="/photos/processed/luxury-kitchen.jpg"
-                  alt="Remote home automation control interface on mobile device"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </div>
+          <div className="text-center mb-16 lg:mb-20">
+            <SectionReveal>
+              <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
+                Twin Cities Josh.ai Specialists
+              </h2>
             </SectionReveal>
+            <SectionReveal delay={0.1}>
+              <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
+                From Minnetonka estates to Wayzata lakefront homes, we've installed Josh.ai systems in every type of luxury Twin Cities residence.
+              </p>
+            </SectionReveal>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            {[
+              "Minnetonka", "Wayzata", "Edina", "Orono",
+              "Dellwood", "Grant", "Afton", "Deephaven",
+              "Medina", "Plymouth", "Minnetrista", "St. Louis Park"
+            ].map((city, index) => (
+              <SectionReveal key={city} delay={0.1 + index * 0.05}>
+                <div className="text-center p-4">
+                  <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase">
+                    {city}
+                  </h3>
+                </div>
+              </SectionReveal>
+            ))}
           </div>
         </div>
       </section>
@@ -388,12 +430,12 @@ export default function HomeAutomationPage() {
           <SectionReveal>
             <div className="gold-rule mx-auto mb-8" />
             <h2 className="font-forum text-deep-navy text-[32px] lg:text-[48px] tracking-[0.03em] uppercase leading-[1.1] mb-6">
-              Experience Intelligent Automation
+              Experience Josh.ai Today
             </h2>
           </SectionReveal>
           <SectionReveal delay={0.15}>
             <p className="font-body text-slate-blue text-[16px] leading-[1.8] mb-10 max-w-lg mx-auto">
-              Discover how home automation can enhance your daily life. Schedule a consultation to explore the possibilities for your home.
+              Ready to experience the future of luxury voice control? Schedule a consultation with the Twin Cities' first and most experienced Josh.ai dealer.
             </p>
           </SectionReveal>
           <SectionReveal delay={0.3}>

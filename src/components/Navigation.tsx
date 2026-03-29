@@ -2,12 +2,13 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { NAV_LINKS, COMPANY } from "@/lib/constants";
+import { NAV_LINKS, COMPANY, SERVICES } from "@/lib/constants";
 import { trackCTAClick } from "@/lib/analytics";
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80);
@@ -57,17 +58,70 @@ export default function Navigation() {
           {/* Desktop Nav — minimal, Savant-style */}
           <div className="hidden lg:flex items-center gap-10">
             {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`font-body text-[12px] tracking-[0.12em] uppercase transition-colors duration-300 ${
-                  scrolled
-                    ? "text-deep-navy/70 hover:text-warm-gold"
-                    : "text-cream/70 hover:text-warm-gold"
-                }`}
-              >
-                {link.label}
-              </Link>
+              link.label === "SERVICES" ? (
+                <div
+                  key={link.href}
+                  className="relative"
+                  onMouseEnter={() => setServicesOpen(true)}
+                  onMouseLeave={() => setServicesOpen(false)}
+                >
+                  <Link
+                    href={link.href}
+                    className={`font-body text-[12px] tracking-[0.12em] uppercase transition-colors duration-300 ${
+                      scrolled
+                        ? "text-deep-navy/70 hover:text-warm-gold"
+                        : "text-cream/70 hover:text-warm-gold"
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                  {servicesOpen && (
+                    <div className="absolute top-full left-0 mt-4 w-80 bg-white shadow-xl border border-gray-100 rounded-lg overflow-hidden z-50">
+                      <div className="p-6">
+                        <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
+                          Our Services
+                        </h3>
+                        <div className="space-y-3">
+                          {SERVICES.slice(0, 6).map((service) => (
+                            <Link
+                              key={service.id}
+                              href={service.href}
+                              className="block group"
+                            >
+                              <h4 className="font-body font-semibold text-[12px] text-deep-navy group-hover:text-warm-gold transition-colors duration-200">
+                                {service.title}
+                              </h4>
+                              <p className="font-body text-[11px] text-slate-blue/70 leading-[1.4] mt-1">
+                                {service.description}
+                              </p>
+                            </Link>
+                          ))}
+                        </div>
+                        <div className="mt-4 pt-4 border-t border-gray-100">
+                          <Link
+                            href="/services"
+                            className="font-body text-[11px] tracking-[0.1em] uppercase text-warm-gold hover:text-deep-navy transition-colors duration-200"
+                          >
+                            View All Services →
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`font-body text-[12px] tracking-[0.12em] uppercase transition-colors duration-300 ${
+                    scrolled
+                      ? "text-deep-navy/70 hover:text-warm-gold"
+                      : "text-cream/70 hover:text-warm-gold"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              )
             ))}
             <a
               href={COMPANY.portalUrl}
