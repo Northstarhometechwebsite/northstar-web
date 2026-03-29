@@ -97,6 +97,110 @@ export default function HomeAutomationPage() {
         </div>
       </section>
 
+      {/* Control Platforms We Service */}
+      <section className="bg-white py-24 lg:py-32">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="text-center mb-16 lg:mb-20">
+            <SectionReveal>
+              <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
+                Control Platforms We Service
+              </h2>
+            </SectionReveal>
+            <SectionReveal delay={0.1}>
+              <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
+                We specialize in three automation platforms — and we can rescue you from systems that aren't working.
+              </p>
+            </SectionReveal>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <SectionReveal delay={0.1}>
+              <div className="bg-cream p-8 text-center">
+                <p className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">Primary Platform</p>
+                <h3 className="font-forum text-deep-navy text-[22px] tracking-[0.05em] uppercase mb-4">
+                  Josh.ai
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Our flagship control platform. Privacy-focused voice control, natural language processing, and luxury-grade integration. Purpose-built for high-end residential.
+                </p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={0.2}>
+              <div className="bg-cream p-8 text-center">
+                <p className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">Secondary Platform</p>
+                <h3 className="font-forum text-deep-navy text-[22px] tracking-[0.05em] uppercase mb-4">
+                  Crestron
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Enterprise-grade automation for complex installations. Full programming, custom interfaces, and deep integration capabilities for demanding projects.
+                </p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={0.3}>
+              <div className="bg-cream p-8 text-center">
+                <p className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">Secondary Platform</p>
+                <h3 className="font-forum text-deep-navy text-[22px] tracking-[0.05em] uppercase mb-4">
+                  Elan / Nice
+                </h3>
+                <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
+                  Elan (now Nice Home Systems) — intuitive touch interfaces and reliable multi-room control. We service and maintain existing Elan installations throughout the Twin Cities.
+                </p>
+              </div>
+            </SectionReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* System Takeover Callout */}
+      <section className="bg-deep-navy py-24 lg:py-32">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
+          <SectionReveal>
+            <div className="gold-rule mx-auto mb-6" />
+            <h2 className="font-forum text-cream text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
+              Stuck With a System That Doesn't Work?
+            </h2>
+          </SectionReveal>
+          <SectionReveal delay={0.1}>
+            <p className="font-body text-cream/60 text-[16px] lg:text-[18px] leading-[1.85] max-w-4xl mx-auto mb-8">
+              If your current integrator has gone dark — or your Savant, Control4, or RTI system isn't performing — we can help. NorthStar specializes in taking over systems other companies installed and either making them work or replacing them entirely.
+            </p>
+          </SectionReveal>
+          <SectionReveal delay={0.15}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+              <div className="border border-warm-gold/30 p-8">
+                <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
+                  Option 1: Re-Engineer
+                </h3>
+                <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
+                  We redesign your system so no proprietary control processor is needed — your devices work independently through modern protocols, eliminating the single point of failure.
+                </p>
+              </div>
+              <div className="border border-warm-gold/30 p-8">
+                <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
+                  Option 2: Migrate to Josh.ai
+                </h3>
+                <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
+                  If centralized control is needed, we migrate your system to Josh.ai with minimal disruption — keeping your existing devices while upgrading the brain that runs them.
+                </p>
+              </div>
+            </div>
+          </SectionReveal>
+          <SectionReveal delay={0.2}>
+            <p className="font-body text-cream/40 text-[14px] leading-[1.7] max-w-3xl mx-auto mb-8">
+              We regularly take over systems from Savant, Control4, RTI, URC, and discontinued platforms. Your investment in speakers, displays, and infrastructure doesn't go to waste.
+            </p>
+          </SectionReveal>
+          <SectionReveal delay={0.25}>
+            <Link
+              href="/services/system-takeover"
+              className="inline-block font-body font-semibold text-[12px] tracking-[0.15em] uppercase px-12 py-4 border border-warm-gold text-warm-gold hover:bg-warm-gold hover:text-deep-navy transition-all duration-300"
+            >
+              LEARN ABOUT SYSTEM TAKEOVER
+            </Link>
+          </SectionReveal>
+        </div>
+      </section>
+
       {/* What Automation Covers */}
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">

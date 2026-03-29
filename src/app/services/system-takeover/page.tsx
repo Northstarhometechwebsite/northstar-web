@@ -57,8 +57,11 @@ export default function SystemTakeoverPage() {
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
                   You're not alone. Across Minneapolis, Minnetonka, Wayzata, and Edina, luxury homeowners are dealing with smart home systems that have become more hassle than help. Previous installers disappeared, systems break regularly, and what promised to simplify life has become a daily frustration.
                 </p>
+                <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-6">
+                  NorthStar specializes in taking over these troubled systems — whether it's a Savant, Control4, RTI, URC, or any other platform — diagnosing the root problems, and transforming them into reliable automation that actually works.
+                </p>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
-                  NorthStar specializes in taking over these troubled systems, diagnosing the root problems, and transforming them into reliable, intuitive automation that actually works.
+                  We offer two paths: <strong>re-engineer the system</strong> so no proprietary control processor is needed, or <strong>migrate to Josh.ai</strong> with minimal disruption — keeping your existing speakers, displays, and infrastructure while upgrading the brain that runs everything.
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.2}>
@@ -167,6 +170,52 @@ export default function SystemTakeoverPage() {
               </div>
             </SectionReveal>
           </div>
+        </div>
+      </section>
+
+      {/* Systems We Take Over */}
+      <section className="bg-deep-navy py-24 lg:py-32">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
+          <SectionReveal>
+            <div className="gold-rule mx-auto mb-6" />
+            <h2 className="font-forum text-cream text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
+              Systems We Take Over
+            </h2>
+          </SectionReveal>
+          <SectionReveal delay={0.1}>
+            <p className="font-body text-cream/60 text-[16px] lg:text-[18px] leading-[1.85] max-w-3xl mx-auto mb-12">
+              We regularly rescue clients from these platforms — and we can either fix them, re-engineer around them, or migrate you to something better.
+            </p>
+          </SectionReveal>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 max-w-5xl mx-auto mb-12">
+            {["Savant", "Control4", "RTI", "URC", "Crestron", "Elan / Nice"].map((platform, index) => (
+              <SectionReveal key={platform} delay={0.1 + index * 0.05}>
+                <div className="border border-warm-gold/30 p-4">
+                  <p className="font-forum text-cream text-[16px] tracking-[0.05em] uppercase">{platform}</p>
+                </div>
+              </SectionReveal>
+            ))}
+          </div>
+          <SectionReveal delay={0.4}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <div className="border border-warm-gold/30 p-8 text-left">
+                <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
+                  Path 1: Re-Engineer
+                </h3>
+                <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
+                  We redesign the system so no proprietary control processor is needed. Your devices work independently through modern protocols — eliminating the single point of failure that caused your problems.
+                </p>
+              </div>
+              <div className="border border-warm-gold/30 p-8 text-left">
+                <h3 className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-3">
+                  Path 2: Migrate to Josh.ai
+                </h3>
+                <p className="font-body text-cream/60 text-[14px] leading-[1.7]">
+                  When centralized control is needed, we migrate to Josh.ai — a privacy-first, luxury platform that won't leave you stranded. Minimal disruption, maximum improvement.
+                </p>
+              </div>
+            </div>
+          </SectionReveal>
         </div>
       </section>
 
