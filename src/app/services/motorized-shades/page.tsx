@@ -5,7 +5,7 @@ import SectionReveal from "@/components/SectionReveal";
 
 export const metadata: Metadata = {
   title: "Motorized Shades & Window Treatments | Minneapolis | NorthStar",
-  description: "Lutron motorized shades for luxury homes. Automated window treatments that integrate with your lighting and home automation system.",
+  description: "Lutron Palladiom and Sivoia motorized shades for luxury homes in Minnetonka, Wayzata, Edina, and the Twin Cities. Automated window treatments integrated with lighting scenes and home automation.",
   alternates: {
     canonical: '/services/motorized-shades',
   },

@@ -5,7 +5,7 @@ import SectionReveal from "@/components/SectionReveal";
 
 export const metadata: Metadata = {
   title: "Home Theater Design & Installation | Minneapolis | NorthStar",
-  description: "Custom home theater design and installation for luxury residences. Immersive cinema experiences in Minneapolis and the Twin Cities.",
+  description: "Custom home theater design and installation for luxury homes in Minnetonka, Wayzata, Edina, and the Twin Cities. Dedicated cinema rooms with immersive Dolby Atmos audio and 4K projection.",
   alternates: {
     canonical: '/services/home-theater',
   },
