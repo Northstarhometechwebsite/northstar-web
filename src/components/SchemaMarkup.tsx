@@ -64,7 +64,7 @@ export default function SchemaMarkup() {
     email: "info@northstarhometech.com",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "1610 Greeley St S",
+      streetAddress: "5640 Memorial Ave N STE B",
       addressLocality: "Stillwater",
       addressRegion: "MN",
       postalCode: "55082",

@@ -81,7 +81,7 @@ export default function TwinCitiesPage() {
                   Stillwater Headquarters
                 </h3>
                 <p className="font-body text-[14px] text-warm-taupe font-semibold uppercase tracking-[0.1em] mb-4">
-                  1610 Greeley St S, Stillwater
+                  5640 Memorial Ave N STE B, Stillwater
                 </p>
                 <p className="font-body text-[15px] text-slate-blue leading-[1.8] mb-6">
                   Our operational headquarters provides comprehensive support for east metro, St. Croix Valley, and western Wisconsin clients with full service capabilities.

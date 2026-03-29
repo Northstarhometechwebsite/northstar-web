@@ -10,7 +10,7 @@ export const COMPANY = {
   founder: "Chris Hayes",
   addresses: {
     stillwater: {
-      street: "1610 Greeley St S",
+      street: "5640 Memorial Ave N STE B",
       city: "Stillwater",
       state: "MN",
       zip: "55082",
