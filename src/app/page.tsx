@@ -219,7 +219,7 @@ export default function HomePage() {
           <div className="flex lg:grid lg:grid-cols-3 gap-px overflow-x-auto no-scrollbar scroll-snap-x px-6 lg:px-0">
             {SERVICES.map((service, i) => (
               <SectionReveal key={service.id} delay={i * 0.08} className="h-full">
-                <div className="min-w-[280px] lg:min-w-0 h-full bg-cream/50 p-8 lg:p-10 group hover:bg-deep-navy transition-colors duration-500 cursor-default">
+                <Link href={service.href} className="block min-w-[280px] lg:min-w-0 h-full bg-cream/50 p-8 lg:p-10 group hover:bg-deep-navy transition-colors duration-500 cursor-pointer no-underline">
                   <span className="font-body text-[10px] tracking-[0.2em] uppercase text-warm-gold">
                     0{i + 1}
                   </span>
@@ -229,7 +229,7 @@ export default function HomePage() {
                   <p className="font-body text-[14px] text-slate-blue group-hover:text-cream/60 leading-[1.7] transition-colors duration-500">
                     {service.description}
                   </p>
-                </div>
+                </Link>
               </SectionReveal>
             ))}
           </div>
