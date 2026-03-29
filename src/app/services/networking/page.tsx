@@ -4,8 +4,8 @@ import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
 
 export const metadata: Metadata = {
-  title: "Home Networking Minneapolis | Ubiquiti Network Installation | Twin Cities | NorthStar",
-  description: "Enterprise-grade home networking installation in Minneapolis Twin Cities. Professional Ubiquiti network design for luxury homes in Minnetonka, Wayzata, Edina.",
+  title: "Home Networking Minneapolis | Enterprise Network Installation | Twin Cities | NorthStar",
+  description: "Enterprise-grade home networking installation in Minneapolis Twin Cities. Ubiquiti, Access Networks, Cleerline fiber, and ICE Cable for luxury homes in Minnetonka, Wayzata, Edina.",
   alternates: {
     canonical: '/services/networking',
   },
@@ -58,26 +58,30 @@ export default function NetworkingPage() {
                   Your luxury home's networking infrastructure is like the electrical system — invisible but essential for everything to work. From lighting control and entertainment to security and automation, every smart device depends on reliable, high-performance networking.
                 </p>
                 <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] mb-8">
-                  NorthStar designs and installs enterprise-grade networks using professional Ubiquiti equipment — the same technology trusted by businesses, but optimized for luxury homes in Minnetonka, Wayzata, Edina, and throughout the Twin Cities.
+                  NorthStar designs and installs enterprise-grade networks using a curated stack of professional hardware — Ubiquiti routing and switching, Access Networks wireless, Cleerline fiber optics, and ICE Cable structured wiring — optimized for luxury homes in Minnetonka, Wayzata, Edina, and throughout the Twin Cities.
                 </p>
               </SectionReveal>
               <SectionReveal delay={0.2}>
                 <ul className="space-y-3">
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Ubiquiti Dream Machine and professional access points
+                    Ubiquiti routing, switching, and network management
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Fiber optic backbone for maximum bandwidth
+                    Access Networks high-performance wireless access points
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Structured wiring throughout the home
+                    Cleerline fiber optic backbone for maximum bandwidth
                   </li>
                   <li className="font-body text-[14px] text-slate-blue flex items-center">
                     <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
-                    Professional equipment racks and cable management
+                    ICE Cable structured wiring and professional cable management
+                  </li>
+                  <li className="font-body text-[14px] text-slate-blue flex items-center">
+                    <span className="w-2 h-2 bg-warm-gold rounded-full mr-3"></span>
+                    Industrial-rated outdoor network switches
                   </li>
                 </ul>
               </SectionReveal>
@@ -103,12 +107,12 @@ export default function NetworkingPage() {
           <div className="text-center mb-16 lg:mb-20">
             <SectionReveal>
               <h2 className="font-forum text-deep-navy text-[30px] lg:text-[44px] tracking-[0.03em] uppercase mb-6">
-                Ubiquiti Professional Ecosystem
+                Our Network Hardware Stack
               </h2>
             </SectionReveal>
             <SectionReveal delay={0.1}>
               <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
-                We exclusively use Ubiquiti's professional line of networking equipment — proven in enterprise environments but designed with the aesthetics and reliability expected in luxury homes.
+                We select the right tool for each layer of your network — combining best-in-class hardware from multiple manufacturers to deliver uncompromising performance, reliability, and aesthetics.
               </p>
             </SectionReveal>
           </div>
@@ -117,60 +121,60 @@ export default function NetworkingPage() {
             <SectionReveal delay={0.1}>
               <div className="bg-cream p-8 text-center">
                 <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Dream Machine Pro
+                  Ubiquiti Routing & Switching
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Enterprise gateway with built-in NVR, threat management, and advanced routing capabilities.
+                  Dream Machine Pro gateways, managed PoE+ switches, and enterprise routing — our primary network backbone.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
               <div className="bg-cream p-8 text-center">
                 <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  WiFi 6E Access Points
+                  Access Networks Wireless
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Latest generation wireless technology with seamless roaming and enterprise-grade performance.
+                  High-performance wireless access points purpose-built for luxury residences — seamless roaming, enterprise reliability.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.3}>
               <div className="bg-cream p-8 text-center">
                 <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Professional Switches
+                  Netgear Infrastructure
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  PoE+ switching infrastructure to power access points, cameras, and other network devices.
+                  Professional-grade Netgear switches and networking for secondary and specialized applications.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.4}>
               <div className="bg-cream p-8 text-center">
                 <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Fiber Distribution
+                  Cleerline Fiber Optics
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Single-mode and multi-mode fiber connections for maximum bandwidth and future-proofing.
+                  Single-mode and multi-mode Cleerline fiber for maximum bandwidth, future-proofing, and interference-free distribution.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.5}>
               <div className="bg-cream p-8 text-center">
                 <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Network Management
+                  ICE Cable Infrastructure
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  UniFi controller provides centralized monitoring, configuration, and troubleshooting.
+                  Premium ICE Cable structured wiring — Cat 6A copper, coax distribution, and professional cable management throughout.
                 </p>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.6}>
               <div className="bg-cream p-8 text-center">
                 <h3 className="font-forum text-deep-navy text-[18px] tracking-[0.05em] uppercase mb-4">
-                  Remote Support
+                  Outdoor & Industrial Rated
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  24/7 monitoring and remote diagnostics ensure optimal performance at all times.
+                  Industrial-rated network switches and outdoor-hardened equipment for pools, patios, detached structures, and landscape applications.
                 </p>
               </div>
             </SectionReveal>
@@ -248,7 +252,7 @@ export default function NetworkingPage() {
             </SectionReveal>
             <SectionReveal delay={0.1}>
               <p className="font-body text-[15px] lg:text-[16px] text-slate-blue leading-[1.85] max-w-3xl mx-auto">
-                Professional structured wiring provides the physical backbone for all network services — from high-speed internet to entertainment distribution and automation control.
+                Professional structured wiring provides the physical backbone for all network services. We use ICE Cable for copper runs and Cleerline fiber for optical distribution — from high-speed internet to entertainment and automation control.
               </p>
             </SectionReveal>
           </div>
@@ -260,10 +264,10 @@ export default function NetworkingPage() {
                   <span className="font-forum text-deep-navy text-[14px]">CAT</span>
                 </div>
                 <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
-                  Cat 6A Ethernet
+                  ICE Cable Cat 6A
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  10-gigabit capable copper connections to every room and device location.
+                  10-gigabit capable ICE Cable copper connections to every room and device location.
                 </p>
               </div>
             </SectionReveal>
@@ -273,10 +277,10 @@ export default function NetworkingPage() {
                   <span className="font-forum text-deep-navy text-[14px]">FIB</span>
                 </div>
                 <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
-                  Fiber Backbone
+                  Cleerline Fiber
                 </h3>
                 <p className="font-body text-[14px] text-slate-blue leading-[1.7]">
-                  Single and multi-mode fiber for maximum bandwidth and future expansion.
+                  Cleerline single and multi-mode fiber for maximum bandwidth and future expansion.
                 </p>
               </div>
             </SectionReveal>
