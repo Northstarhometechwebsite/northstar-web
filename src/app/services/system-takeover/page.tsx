@@ -18,7 +18,7 @@ export default function SystemTakeoverPage() {
       <section className="relative h-[60vh] min-h-[450px] flex items-center justify-center overflow-hidden">
         <Image
           src="/photos/processed/enhanced-av-rack-1.jpg"
-          alt="Home automation system takeover and rescue services Minneapolis Twin Cities"
+          alt="NorthStar Home Technologies service vans arriving on-site for smart home system takeover and rescue"
           fill
           className="object-cover"
           priority
