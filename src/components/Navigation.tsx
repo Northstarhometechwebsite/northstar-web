@@ -76,7 +76,8 @@ export default function Navigation() {
                     {link.label}
                   </Link>
                   {servicesOpen && (
-                    <div className="absolute top-full left-0 mt-4 w-80 bg-white shadow-xl border border-gray-100 rounded-lg overflow-hidden z-50">
+                    <div className="absolute top-full left-0 w-80 pt-4 z-50">
+                      <div className="bg-white shadow-xl border border-gray-100 rounded-lg overflow-hidden">
                       <div className="p-6">
                         <h3 className="font-forum text-deep-navy text-[16px] tracking-[0.05em] uppercase mb-4">
                           Our Services
@@ -105,6 +106,7 @@ export default function Navigation() {
                             View All Services →
                           </Link>
                         </div>
+                      </div>
                       </div>
                     </div>
                   )}
