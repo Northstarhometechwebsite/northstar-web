@@ -230,7 +230,7 @@ export default function HomeTheaterPage() {
               <div className="relative aspect-[4/3] overflow-hidden img-zoom">
                 <Image
                   src="/photos/processed/work-lakefront-media-room.jpg"
-                  alt="Large format display with premium video technology in luxury setting"
+                  alt="LED video wall displaying Ferrari content in luxury garage with ambient red accent lighting"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
