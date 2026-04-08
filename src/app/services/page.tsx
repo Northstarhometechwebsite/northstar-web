@@ -69,7 +69,7 @@ export default function ServicesPage() {
   return (
     <>
       {/* ========== HERO — Full-bleed with photo ========== */}
-      <section className="relative h-[60vh] lg:h-[70vh] min-h-[450px] overflow-hidden flex items-end">
+      <section className="relative h-[60vh] lg:h-[70vh] min-h-[350px] lg:min-h-[450px] overflow-hidden flex items-end">
         <Image
           src="/photos/processed/svc-hero.jpg"
           alt="Grand staircase in luxury home — technology integrated seamlessly"
@@ -107,7 +107,7 @@ export default function ServicesPage() {
               {/* Text */}
               <div className={i % 2 === 1 ? "lg:order-2" : ""}>
                 <SectionReveal>
-                  <p className="font-body text-[10px] tracking-[0.2em] uppercase text-warm-gold mb-4">
+                  <p className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-4">
                     0{i + 1}
                   </p>
                   <h2 className="font-forum text-deep-navy text-[28px] lg:text-[40px] tracking-[0.03em] uppercase mb-6">

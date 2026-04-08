@@ -47,7 +47,7 @@ export default function Navigation() {
               NORTHSTAR
             </span>
             <span
-              className={`font-body text-[9px] lg:text-[10px] font-semibold tracking-[0.2em] uppercase leading-tight transition-colors duration-500 ${
+              className={`font-body text-[10px] lg:text-[10px] font-semibold tracking-[0.2em] uppercase leading-tight transition-colors duration-500 ${
                 scrolled ? "text-slate-blue" : "text-cream/60"
               }`}
             >
@@ -139,7 +139,7 @@ export default function Navigation() {
           {/* Mobile Hamburger */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden flex flex-col gap-1.5 p-2"
+            className="lg:hidden flex flex-col gap-1.5 p-3 min-w-[44px] min-h-[44px] items-center justify-center"
             aria-label="Toggle menu"
           >
             <span

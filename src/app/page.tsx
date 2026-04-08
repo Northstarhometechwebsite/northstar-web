@@ -54,7 +54,7 @@ export default function HomePage() {
   return (
     <>
       {/* ========== HERO — Full-bleed cinematic ========== */}
-      <section className="relative h-screen flex items-end overflow-hidden">
+      <section className="relative h-[85vh] lg:h-screen flex items-end overflow-hidden">
         <Image
           src="/photos/processed/hero-dusk.jpg"
           alt="Luxury home exterior at twilight — warm glow from every window"
@@ -65,7 +65,7 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
-        <div className="relative z-10 w-full px-6 lg:px-12 pb-20 lg:pb-28 max-w-[1400px] mx-auto">
+        <div className="relative z-10 w-full px-6 lg:px-12 pb-16 lg:pb-20 xl:pb-28 max-w-[1400px] mx-auto">
           <div className="gold-rule mb-6" />
           <h1 className="font-forum text-cream text-[36px] sm:text-[48px] lg:text-[72px] xl:text-[84px] leading-[1.05] tracking-[0.02em] uppercase max-w-4xl">
             Technology That Disappears Into Architecture
@@ -122,11 +122,11 @@ export default function HomePage() {
                       alt={project.title}
                       fill
                       className="object-cover"
-                      sizes={i === 0 ? "66vw" : "33vw"}
+                      sizes={i === 0 ? "(max-width: 1024px) 100vw, 66vw" : "(max-width: 1024px) 100vw, 33vw"}
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-500" />
                     <div className="project-info absolute bottom-0 left-0 right-0 p-6 lg:p-8">
-                      <p className="font-body text-[10px] tracking-[0.2em] uppercase text-warm-gold mb-1">
+                      <p className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-1">
                         {project.category}
                       </p>
                       <h3 className="font-forum text-cream text-[22px] lg:text-[26px] tracking-[0.03em] uppercase">
@@ -149,11 +149,11 @@ export default function HomePage() {
                       alt={project.title}
                       fill
                       className="object-cover"
-                      sizes="33vw"
+                      sizes="(max-width: 1024px) 100vw, 33vw"
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-500" />
                     <div className="project-info absolute bottom-0 left-0 right-0 p-6 lg:p-8">
-                      <p className="font-body text-[10px] tracking-[0.2em] uppercase text-warm-gold mb-1">
+                      <p className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold mb-1">
                         {project.category}
                       </p>
                       <h3 className="font-forum text-cream text-[22px] lg:text-[26px] tracking-[0.03em] uppercase">
@@ -214,13 +214,13 @@ export default function HomePage() {
           </SectionReveal>
         </div>
 
-        <div className="lg:max-w-[1400px] lg:mx-auto lg:px-12">
+        <div className="lg:max-w-[1400px] lg:mx-auto lg:px-12 services-scroll">
           {/* Mobile: horizontal scroll / Desktop: grid */}
           <div className="flex lg:grid lg:grid-cols-3 gap-px overflow-x-auto no-scrollbar scroll-snap-x px-6 lg:px-0">
             {SERVICES.map((service, i) => (
               <SectionReveal key={service.id} delay={i * 0.08} className="h-full">
                 <Link href={service.href} className="block min-w-[280px] lg:min-w-0 h-full bg-cream/50 p-8 lg:p-10 group hover:bg-deep-navy transition-colors duration-500 cursor-pointer no-underline">
-                  <span className="font-body text-[10px] tracking-[0.2em] uppercase text-warm-gold">
+                  <span className="font-body text-[11px] tracking-[0.2em] uppercase text-warm-gold">
                     0{i + 1}
                   </span>
                   <h3 className="font-forum text-deep-navy group-hover:text-cream text-[20px] lg:text-[22px] tracking-[0.05em] uppercase mt-4 mb-4 transition-colors duration-500">
@@ -233,11 +233,12 @@ export default function HomePage() {
               </SectionReveal>
             ))}
           </div>
+          <p className="lg:hidden text-center mt-6 font-body text-[11px] tracking-[0.15em] uppercase text-warm-taupe/60 px-6">Swipe to explore →</p>
         </div>
       </section>
 
       {/* ========== STUDIO TEASER — Visual ========== */}
-      <section className="relative h-[80vh] lg:h-[90vh] overflow-hidden">
+      <section className="relative h-[60vh] lg:h-[90vh] overflow-hidden">
         <Image
           src="/photos/processed/studio.jpg"
           alt="NorthStar Design Studio"

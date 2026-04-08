@@ -15,7 +15,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative h-[40vh] min-h-[320px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[40vh] min-h-[280px] lg:min-h-[320px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-deep-navy via-[#2a3448] to-slate-blue" />
         <div className="absolute inset-0 bg-black/20" />
         <div className="relative z-10 text-center px-6">
