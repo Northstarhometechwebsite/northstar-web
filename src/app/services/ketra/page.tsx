@@ -503,8 +503,8 @@ export default function KetraPage() {
               {
                 title: "Art & Collections",
                 desc: "95+ CRI means artwork and collectibles are lit as the artist intended. No color shift, no UV degradation — gallery-standard lighting in your home.",
-                img: "/photos/processed/work-general-55.jpg",
-                alt: "Ketra art lighting with high CRI rendering — luxury Minneapolis residence",
+                img: "/photos/processed/metcalf-art-collections.jpg",
+                alt: "Framed waterfall photography illuminated by Ketra high-CRI lighting — luxury Minneapolis residence",
               },
               {
                 title: "Outdoor Architectural Lighting",
