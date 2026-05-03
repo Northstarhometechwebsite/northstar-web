@@ -44,7 +44,7 @@ const schemaData = {
       "@id": "https://www.northstarhometech.com/#organization",
       name: "NorthStar Home Technologies",
       url: "https://www.northstarhometech.com",
-      telephone: "+1-651-337-5889",
+      telephone: "+1-612-254-2626",
       email: "office@northstarhometech.com",
       logo: "https://www.northstarhometech.com/logos/northstar-logo.svg",
       image: "https://www.northstarhometech.com/photos/processed/lighting-ketra.jpg",
@@ -63,7 +63,7 @@ const schemaData = {
       address: [
         {
           "@type": "PostalAddress",
-          streetAddress: "117 N Main St",
+          streetAddress: "5640 Memorial Ave N STE B",
           addressLocality: "Stillwater",
           addressRegion: "MN",
           postalCode: "55082",
@@ -71,7 +71,7 @@ const schemaData = {
         },
         {
           "@type": "PostalAddress",
-          streetAddress: "Minneapolis",
+          streetAddress: "1624 W Lake St",
           addressLocality: "Minneapolis",
           addressRegion: "MN",
           addressCountry: "US",
@@ -143,7 +143,7 @@ const schemaData = {
           name: "How do I schedule a Ketra consultation in Minneapolis?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Contact NorthStar Home Technologies via our website at northstarhometech.com/contact, call us at 651-337-5889, or visit our Stillwater studio. We serve luxury homeowners throughout Minneapolis, Saint Paul, Minnetonka, Wayzata, Edina, and the greater Twin Cities.",
+            text: "Contact NorthStar Home Technologies via our website at northstarhometech.com/contact, call us at (612) 254-2626, or visit our Stillwater headquarters or Minneapolis design studio. We serve luxury homeowners throughout Minneapolis, Saint Paul, Minnetonka, Wayzata, Edina, and the greater Twin Cities.",
           },
         },
       ],
@@ -647,7 +647,7 @@ export default function KetraPage() {
               },
               {
                 q: "How do I schedule a Ketra consultation in Minneapolis?",
-                a: "Contact NorthStar via our contact page, call us at 651-337-5889, or visit our Stillwater studio. We serve luxury homeowners throughout Minneapolis, Saint Paul, Minnetonka, Wayzata, Edina, and the greater Twin Cities metro.",
+                a: "Contact NorthStar via our contact page, call us at (612) 254-2626, or visit our Stillwater headquarters or Minneapolis design studio. We serve luxury homeowners throughout Minneapolis, Saint Paul, Minnetonka, Wayzata, Edina, and the greater Twin Cities metro.",
               },
             ].map((faq, i) => (
               <SectionReveal key={faq.q} delay={0.05 * i}>
@@ -710,9 +710,9 @@ export default function KetraPage() {
               Minneapolis and Twin Cities homeowners — discover what one of only 60 original Ketra dealers in the country can design for your home.
             </p>
             <p className="font-body text-cream/50 text-[14px] leading-[1.7] mb-10">
-              <strong className="text-warm-gold">Stillwater:</strong> 117 N Main St, Stillwater, MN 55082&nbsp;&nbsp;|&nbsp;&nbsp;
-              <strong className="text-warm-gold">Minneapolis</strong> office also available&nbsp;&nbsp;|&nbsp;&nbsp;
-              <strong className="text-warm-gold">651-337-5889</strong>
+              <strong className="text-warm-gold">Stillwater:</strong> 5640 Memorial Ave N STE B, Stillwater, MN 55082&nbsp;&nbsp;|&nbsp;&nbsp;
+              <strong className="text-warm-gold">Minneapolis:</strong> 1624 W Lake St, Minneapolis, MN 55408&nbsp;&nbsp;|&nbsp;&nbsp;
+              <strong className="text-warm-gold">(612) 254-2626</strong>
             </p>
           </SectionReveal>
           <SectionReveal delay={0.25}>
