@@ -152,16 +152,19 @@ export default function StudioPage() {
                 num: "01",
                 title: "See It Live",
                 body: "Experience Ketra lighting scenes shift in real-time. Watch colors change, feel warmth adjust, and see how light transforms a space throughout the day.",
+                link: { href: "/services/ketra", label: "Explore Ketra →" },
               },
               {
                 num: "02",
                 title: "Touch It",
                 body: "Interact with Lutron keypads, Josh.ai voice control, and automation interfaces. Understand how effortless intelligent control feels in practice.",
+                link: null,
               },
               {
                 num: "03",
                 title: "Hear It",
                 body: "Listen to distributed audio across zones, compare speaker systems, and experience what immersive sound feels like in a purpose-built environment.",
+                link: null,
               },
             ].map((item, i) => (
               <SectionReveal key={item.title} delay={i * 0.12}>
@@ -175,6 +178,14 @@ export default function StudioPage() {
                   <p className="font-body text-[15px] text-slate-blue leading-[1.8]">
                     {item.body}
                   </p>
+                  {item.link && (
+                    <Link
+                      href={item.link.href}
+                      className="inline-block mt-3 font-body text-[12px] tracking-[0.12em] uppercase text-warm-gold hover:text-deep-navy transition-colors duration-300"
+                    >
+                      {item.link.label}
+                    </Link>
+                  )}
                 </div>
               </SectionReveal>
             ))}

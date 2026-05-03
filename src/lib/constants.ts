@@ -38,6 +38,7 @@ export const FOOTER_LINKS = [
   { label: "Work", href: "/work" },
   { label: "Services", href: "/services" },
   { label: "Studio", href: "/studio" },
+  { label: "Ketra", href: "/services/ketra" },
   { label: "About", href: "/about" },
   { label: "Connect", href: "/connect" },
   { label: "Contact", href: "/contact" },
@@ -85,6 +86,13 @@ export const SERVICES = [
     title: "Lutron Lighting",
     description: "Professional Lutron HomeWorks QSX and RadioRA 3 lighting control systems.",
     href: "/services/lutron-lighting",
+    icon: "lighting",
+  },
+  {
+    id: "ketra",
+    title: "Ketra Lighting",
+    description: "Award-winning natural light tunable LED design — one of only 60 original Ketra dealers nationwide.",
+    href: "/services/ketra",
     icon: "lighting",
   },
   {

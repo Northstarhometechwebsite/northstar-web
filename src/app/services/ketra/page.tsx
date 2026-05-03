@@ -235,14 +235,25 @@ export default function KetraPage() {
             <SectionReveal delay={0.1}>
               <div className="border border-warm-gold/20 p-10">
                 <p className="font-forum text-warm-gold text-[42px] lg:text-[56px] tracking-[0.03em] leading-[1]">
-                  #1
+                  2020
                 </p>
                 <p className="font-body text-[11px] tracking-[0.2em] uppercase text-cream/50 mt-3">
-                  Lutron Excellence Award — Best Ketra System
+                  Lutron Excellence Award
+                </p>
+                <p className="font-body text-[11px] tracking-[0.15em] uppercase text-warm-gold/70 mt-1">
+                  Best Ketra or Ivalo Lighting Project
                 </p>
                 <p className="font-body text-cream/60 text-[14px] leading-[1.7] mt-4">
-                  Recognized by Lutron for the most sophisticated Ketra installation in the country — a testament to NorthStar's design and programming depth.
+                  Recognized by Lutron Electronics for the most outstanding Ketra installation in the country — a testament to NorthStar&apos;s design depth and programming precision.
                 </p>
+                <a
+                  href="https://commercial.lutron.com/us/en/press-releases/2020-lutron-excellence-award-winners-and-hall-of-fame-inductee-announced"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-4 font-body text-[11px] tracking-[0.12em] uppercase text-warm-gold/60 hover:text-warm-gold transition-colors duration-300"
+                >
+                  View announcement →
+                </a>
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
