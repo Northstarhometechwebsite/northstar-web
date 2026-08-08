@@ -19,6 +19,7 @@ const sections = [
   { id: "tier0", label: "Standard Installation (Tier 0)" },
   { id: "tier1", label: "Managed Client Plan (Tier 1)" },
   { id: "tier2", label: "Preferred Management (Tier 2)" },
+  { id: "tier3", label: "Concierge Managed (Tier 3)" },
   { id: "monitoring", label: "Security Monitoring" },
   { id: "privacy", label: "Privacy Policy" },
 ];
@@ -32,7 +33,7 @@ export default function TermsPage() {
             Terms &amp; Conditions
           </h1>
           <p className="font-body text-warm-taupe text-[14px] mt-4">
-            Last updated: March 2026
+            Last updated: August 8, 2026
           </p>
         </div>
       </section>
@@ -275,10 +276,65 @@ export default function TermsPage() {
                 </div>
               </div>
 
-              {/* Security Monitoring */}
-              <div id="monitoring" className="scroll-mt-28 mb-12">
+                <div id="tier3" className="scroll-mt-28 mb-12">
                   <h3 className="font-forum text-[22px] tracking-[0.03em] uppercase mb-4">
-                    12. Security Monitoring Service
+                    12. Concierge Managed (Tier 3) — From $1,199/month · $14,388/year
+                  </h3>
+                  <p className="text-slate-blue mb-2 italic">
+                    12-month annual membership, billed yearly in full · Offered by inquiry only · No online signup
+                  </p>
+                  <p className="text-slate-blue mb-4 italic">
+                    The listed price is a baseline — final pricing is customizable and confirmed by inquiry only.
+                  </p>
+                  <p className="text-slate-blue mb-6">
+                    Everything in Preferred Managed, plus a dedicated client manager and a NorthStar team that answers day or night.
+                  </p>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Everything in Preferred Managed</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
+                    <li>All Preferred benefits carry over: same-day scheduling, free daytime on-site support, priority procurement, quarterly on-site updates</li>
+                  </ul>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">The Concierge Layer</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
+                    <li>24/7 concierge service — reach your NorthStar team day or night</li>
+                    <li>A dedicated client manager who knows your home and your systems</li>
+                    <li>Weekly text check-ins from your dedicated client manager</li>
+                    <li>VIP response process: 1-hour response, 24/7/365 — nights, Sundays, and holidays included</li>
+                  </ul>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Tailored to Your Home</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside mb-6">
+                    <li>Scope customized on your activation call — coverage shaped around your properties, systems, and household</li>
+                    <li>Activated personally by a NorthStar team member</li>
+                    <li>Annual membership, billed yearly in full — final pricing is confirmed on your activation call</li>
+                  </ul>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Concierge Managed · Terms</h4>
+                  <p className="text-slate-blue mb-4">
+                    Concierge Managed is an annual membership billed yearly in full, in advance, with a twelve (12) month term. Membership begins on the activation date confirmed with your NorthStar client manager. Pricing starts at $1,199 per month ($14,388 annually) and is finalized during your activation call based on the properties, systems, and coverage included in your scope.
+                  </p>
+                  <p className="text-slate-blue mb-4">
+                    Concierge Managed includes all benefits of Preferred Managed, plus a dedicated client manager, weekly check-ins, and 24/7 concierge access. The Concierge Managed response commitment is one (1) hour, twenty-four hours a day, seven days a week, including nights, weekends, Sundays, and holidays. This response commitment is measured in calendar time from the time your request is received and refers to NorthStar&apos;s acknowledgement of and response to your request; on-site arrival times vary with travel distance, parts availability, and the nature of the issue.
+                  </p>
+                  <p className="text-slate-blue mb-6">
+                    Concierge Managed is offered by inquiry only and is activated by a NorthStar team member. It cannot be purchased online. Travel beyond 50 miles may incur additional fees.
+                  </p>
+
+                  <h4 className="font-body font-semibold text-deep-navy text-[14px] uppercase tracking-[0.1em] mt-6 mb-3">Legal</h4>
+                  <ul className="space-y-2 text-slate-blue list-disc list-inside">
+                    <li>Limitation of liability capped at total fees paid</li>
+                    <li>Force majeure provisions apply</li>
+                    <li>Dispute resolution: mediation followed by binding arbitration in Minnesota; class action waiver</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Security Monitoring */}
+              <div>
+                <div id="monitoring" className="scroll-mt-28 mb-12">
+                  <h3 className="font-forum text-[22px] tracking-[0.03em] uppercase mb-4">
+                    13. Security Monitoring Service
                   </h3>
                   <p className="text-slate-blue mb-4 italic">Month-to-month · No long-term contract required</p>
 
