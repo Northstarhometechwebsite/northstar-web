@@ -395,7 +395,6 @@ export default function TermsPage() {
                     <li>Class action waiver applies</li>
                   </ul>
                 </div>
-              </div>
 
               {/* PART 3 */}
               <div id="privacy" className="scroll-mt-28">
@@ -435,6 +434,7 @@ export default function TermsPage() {
                 or{" "}
                 <a href="tel:6122542626" className="underline">(612) 254-2626</a>.
               </p>
+              </div>
             </div>
           </div>
         </div>
