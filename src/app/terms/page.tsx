@@ -274,7 +274,6 @@ export default function TermsPage() {
                     <li>Dispute resolution: mediation followed by binding arbitration in Minnesota; class action waiver</li>
                   </ul>
                 </div>
-              </div>
 
                 <div id="tier3" className="scroll-mt-28 mb-12">
                   <h3 className="font-forum text-[22px] tracking-[0.03em] uppercase mb-4">
@@ -330,8 +329,7 @@ export default function TermsPage() {
                 </div>
               </div>
 
-              {/* Security Monitoring */}
-              <div>
+                {/* Security Monitoring */}
                 <div id="monitoring" className="scroll-mt-28 mb-12">
                   <h3 className="font-forum text-[22px] tracking-[0.03em] uppercase mb-4">
                     13. Security Monitoring Service
